@@ -1,0 +1,19 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+
+    config.vm.define "clase03" do |clase03|
+        clase03.vm.box = "ubuntu/xenial64"
+        clase03.vm.network "private_network", ip: "172.16.248.200"
+        clase03.vm.hostname = "clase03"
+        clase03.vm.synced_folder ".", "/vagrant", type: "nfs"
+        clase03.vm.provider "virtualbox" do |vb|
+            vb.customize ["modifyvm", :id, "--name", "clase03"]
+            vb.memory = "1024"
+        end
+        config.vm.provision "shell", inline: <<-SHELL
+            sudo apt install software-properties-common anacron -y
+        SHELL
+    end
+end
