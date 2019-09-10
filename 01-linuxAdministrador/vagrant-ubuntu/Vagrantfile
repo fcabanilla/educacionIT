@@ -3,17 +3,29 @@
 
 Vagrant.configure("2") do |config|
 
-    config.vm.define "clase03" do |clase03|
-        clase03.vm.box = "ubuntu/xenial64"
-        clase03.vm.network "private_network", ip: "172.16.248.200"
-        clase03.vm.hostname = "clase03"
-        clase03.vm.synced_folder ".", "/vagrant", type: "nfs"
-        clase03.vm.provider "virtualbox" do |vb|
-            vb.customize ["modifyvm", :id, "--name", "clase03"]
+    config.vm.define "clase05" do |clase05|
+        # clase05.vm.box = "ubuntu/xenial64"
+        clase05.vm.box = "bento/centos-5"
+
+        clase05.vm.network "private_network", ip: "172.16.248.200"
+        clase05.vm.hostname = "clase05"
+        clase05.vm.synced_folder ".", "/vagrant", type: "nfs"
+        clase05.vm.provider "virtualbox" do |vb|
+            vb.customize ["modifyvm", :id, "--name", "clase05"]
+
+            # unless File.exist?('second_disk.vdi')
+            # end
+
+            # vb.customize ['createhd', '--filename', 'second_disk.vdi', '--size', 500 * 1024]
+            vb.customize ['storageattach', :id, '--storagectl', 'SATA', '--port', 1, '--device', 0, '--type', 'hdd', '--medium', 'second_disk.vdi']
+
             vb.memory = "1024"
+
+
+
         end
-        config.vm.provision "shell", inline: <<-SHELL
-            sudo apt install software-properties-common anacron -y
-        SHELL
+        # config.vm.provision "shell", inline: <<-SHELL
+        #     sudo apt install software-properties-common anacron -y
+        # SHELL
     end
 end
