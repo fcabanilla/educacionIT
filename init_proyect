@@ -55,7 +55,8 @@ while true; do
                 for ((i = 1; i <= $COUNT_CLASSES; i++)); do
                     echo -e "\t\t\tclase0${i}"
                     for ((j = 0; j < ${#SUB_FOLDERS[@]}; j++)); do
-                        mkdir -p "$COURSE/clase0${j}/${SUB_FOLDERS[${i}]}"
+                        mkdir -p "$COURSE/clase0${i}/${SUB_FOLDERS[${j}]}"
+                        touch "$COURSE/clase0${i}/${SUB_FOLDERS[${j}]}/.gitkeep"
                         echo -e "\t\t\t\t${SUB_FOLDERS[${j}]}\n"
                     done
                 done
