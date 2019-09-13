@@ -62,10 +62,10 @@ while true; do
                 done
 
                 if ! test -z "$3"; then
-                    git add .
-                    echo -e "git add .\n\n"
+                    git add $COURSE
+                    echo -e "git add $COURSE\n\n"
                     git commit -m "Agregado el curso de $3"
-                    echo -e "git commit -m \"Agregado el curso de $3\""
+                    echo -e "\n\n git commit -m \"Agregado el curso de $3\""
                     git push origin master
                     echo "git push origin master"
                 fi
