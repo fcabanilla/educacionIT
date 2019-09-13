@@ -1,0 +1,69 @@
+#!/bin/bash
+SUB_FOLDERS=('laboratorios' 'manuales' 'sql' 'videos' 'apuntes')
+REGEX='^[0-9]+$'
+ERROR_VALUE=-1
+
+while true; do
+    COUNT_CLASSES=-1
+    if test -z "$1"; then
+        echo -e ""
+        read -p "Nombre del curso: " COURSE
+    else
+        COURSE=$1
+    fi
+
+    if ! [[ $COURSE =~ $REGEX ]]; then
+        if test -z "$2"; then
+            echo -e ""
+            # echo "COUNT_CLASSES: $COUNT_CLASSES"
+            result=$(( ERROR_VALUE == COUNT_CLASSES  ))
+            # echo "RESULT: $result"
+            # while [ $j -ne $b ]
+            while [[ $result -eq "1" ]];
+            do
+                #statements
+                read -p "Cuantas clases tiene el curso de $COURSE: " COUNT_CLASSES
+                if test -z "$COUNT_CLASSES"; then
+                    #statements
+                    COUNT_CLASSES=-1
+                fi
+                result=$(( ERROR_VALUE == COUNT_CLASSES  ))
+                # echo "$COUNT_CLASSES"
+            done
+        else
+            COUNT_CLASSES=$2
+        fi
+        if ! [[ $COUNT_CLASSES =~ $REGEX ]]; then
+            echo -e "ERROR: La cantidad de clases no es un numero\n" >&2
+            exit 1
+        else
+            TOTAL_FOLDERS=$(expr $COUNT_CLASSES \* ${#SUB_FOLDERS[@]})
+
+            echo -e "\n\t\t   Nombre de curso:\t$COURSE\n\t\tCantidad de clases:\t$COUNT_CLASSES\n"
+            cowsay -f tux "Se crearan $TOTAL_FOLDERS carpetas para este proyecto"
+            echo ""
+            # echo "Se crearan todas $TOTAL_FOLDERS las carpetas para este proyecto"
+            read -p "Esta seguro de continuar? (y/N) " SURE
+
+            if test -z "$SURE"; then
+                SURE='n'
+            fi
+
+            if [[ 'y' == $SURE ]]; then
+                echo -e "Se creo las siguientes carpetas:$COURSE"
+                echo -e ""
+                for ((i = 1; i <= $COUNT_CLASSES; i++)); do
+                    echo -e "\t\t\tclase0${i}"
+                    for ((j = 0; j < ${#SUB_FOLDERS[@]}; j++)); do
+                        mkdir -p "$COURSE/clase0${j}/${SUB_FOLDERS[${i}]}"
+                        echo -e "\t\t\t\t${SUB_FOLDERS[${j}]}\n"
+                    done
+                done
+                exit 0
+            fi
+        fi
+    else
+        echo "ERROR: El nombre del curso no puede ser un numero" >&2
+        exit 1
+    fi
+done
