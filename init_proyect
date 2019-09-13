@@ -50,16 +50,22 @@ while true; do
             fi
 
             if [[ 'y' == $SURE ]]; then
-                echo -e "Se creo las siguientes carpetas:$COURSE"
-                echo -e ""
+                # echo -e "Se creo las siguientes carpetas:$COURSE"
+                # echo -e ""
                 for ((i = 1; i <= $COUNT_CLASSES; i++)); do
-                    echo -e "\t\t\tclase0${i}"
+                    # echo -e "\t\t\tclase0${i}"
                     for ((j = 0; j < ${#SUB_FOLDERS[@]}; j++)); do
                         mkdir -p "$COURSE/clase0${i}/${SUB_FOLDERS[${j}]}"
                         touch "$COURSE/clase0${i}/${SUB_FOLDERS[${j}]}/.gitkeep"
-                        echo -e "\t\t\t\t${SUB_FOLDERS[${j}]}\n"
+                        # echo -e "\t\t\t\t${SUB_FOLDERS[${j}]}\n"
                     done
                 done
+                git add .
+                echo "git add ."
+                git commit -m "Agregado el curso de $3"
+                echo -e "git commit -m \"Agregado el curso de $3\""
+                git push origin master
+                echo "git push origin master"
                 exit 0
             fi
         fi
