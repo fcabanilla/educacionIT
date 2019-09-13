@@ -26,7 +26,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.provision "shell", path: "bootstrap_mdadm.sh"
   config.vm.provision "shell", path: "bootstrap_cockpit.sh"
-
+  config.vm.hostname = "clase05"
   config.vm.provider :virtualbox do |vb|
     vb.customize ["modifyvm", :id, "--memory", "4096"]
     vb.customize ["modifyvm", :id, "--cpus", "2"]
