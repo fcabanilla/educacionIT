@@ -1,0 +1,37 @@
+Terminology
+In the last section, we used a lot of Docker-specific jargon which might be
+confusing to some. So before we go further, let me clarify some terminology that
+is used frequently in the Docker ecosystem.
+
+Images - The blueprints of our application which form the basis of containers.
+In the demo above, we used the docker pull command to download the busybox
+image.Containers - Created from Docker images and run the actual application.
+We create a container using docker run which we did using the busybox image that
+we downloaded. A list of running containers can be seen using the docker ps
+command.
+
+Docker Daemon - The background service running on the host that manages
+building, running and distributing Docker containers. The daemon is the process
+that runs in the operating system to which clients talk to.
+
+Docker Client - The command line tool that allows the user to interact with the
+daemon. More generally, there can be other forms of clients too - such as
+Kitematic which provide a GUI to the users.
+
+Docker Hub - A registry of Docker images. You can think of the registry as a
+directory of all available Docker images. If required, one can host their own
+Docker registries and can use them for pulling images.
+
+Base images - Are images that have no parent image, usually images with an OS
+like ubuntu, busybox or debian.
+
+Child images - are images that build on base images and add additional
+functionality.
+
+Official images - Are images that are officially maintained and supported by the
+folks at Docker. These are typically one word long. In the list of images above,
+the python, ubuntu, busybox and hello-world images are official images.
+
+User images - Are images created and shared by users like you and me. They build
+on base images and add additional functionality. Typically, these are formatted
+as user/image-name.

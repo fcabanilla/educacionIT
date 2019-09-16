@@ -58,8 +58,10 @@ while true; do
                         mkdir -p "$COURSE/clase0${i}/${SUB_FOLDERS[${j}]}"
                         touch "$COURSE/clase0${i}/${SUB_FOLDERS[${j}]}/.gitkeep"
                         # echo -e "\t\t\t\t${SUB_FOLDERS[${j}]}\n"
+                        # echo -e ".."
                     done
                 done
+                tree $COURSE
 
                 if ! test -z "$3"; then
                     git add $COURSE
