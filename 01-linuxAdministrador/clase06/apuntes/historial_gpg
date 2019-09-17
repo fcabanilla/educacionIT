@@ -1,0 +1,1000 @@
+  223  ls
+  224  mkdir scripts
+  225  cd scripts/
+  226  vim atom.sh
+  227  chmod +x atom.sh 
+  228  ./atom.sh 
+  229  atom
+  230  ls
+  231  cd atom/
+  232  ls
+  233  script/build 
+  234  npm
+  235  ls
+  236  cd ..
+  237  ls
+  238  mv franz_5.0.0-beta.17_amd64.deb deb/
+  239  mv MBuntu-Wallpapers.zip tar/
+  240  mv opera-stable_52.0.2871.40_amd64.deb deb
+  241  ls
+  242  mv amdgpu-pro-17.50-511655.tar.xz tar/
+  243  ls
+  244  rm amdgpu-pro-17.50-511655/
+  245  rm -rf amdgpu-pro-17.50-511655/
+  246  ls
+  247  cd tar/
+  248  ls
+  249  ll
+  250  tar -xzvf node-v0.12.4.tar.gz 
+  251  ls
+  252  cd node-v0.12.4/
+  253  ls
+  254  make
+  255  make install
+  256  ./configure 
+  257  make
+  258  node
+  259  ls
+  260  out/Release/node 
+  261  ln -fs /opt/node-v0.12.4/out/Release/node node
+  262  cd 
+  263  sudo mv Downloads/tar/node-v0.12.4/ /opt/
+  264  cd /opt/
+  265  ls
+  266  ln -fs /opt/node-v0.12.4/out/Release/node /bin/node
+  267  sudo ln -fs /opt/node-v0.12.4/out/Release/node /bin/node
+  268  node 
+  269  ls
+  270  cd ..
+  271  ls
+  272  cd
+  273  ls
+  274  Downloads/scripts/atom.sh 
+  275  cd Downloads/scripts/
+  276  cat atom
+  277  cat atom.sh 
+  278  ls
+  279  cd atom/
+  280  script/build 
+  281  ls
+  282  cd ..
+  283  vim atom.sh 
+  284  rm -rf atom
+  285  ./atom.sh 
+  286  bin/fixScreen 
+  287  ls
+  288  cd cosas/iua/hpc/cabanilla/
+  289  cd
+  290  atom cosas/iua/hpc/cabanilla/
+  291  cd cosas/iua/hpc/cabanilla/TP4/
+  292  make
+  293  sudo apt install glib-2.0
+  294  make
+  295  make test
+  296  make
+  297  make test
+  298  git status
+  299  git add matmul.c matmul.h 
+  300  git status
+  301  git add ../TP1/matmul.cpp 
+  302  git commit -a "se corrigio el error de la multiplicacion secuencial"
+  303  git commit -m "se corrigio el error de la multiplicacion secuencial"
+  304  git config --global user.email "federico.cabanilla@gmail.com"
+  305  git config --global user.email "federico.cabanilla@gmail.co"
+  306  git config --global user.email "fabanilla"
+  307  git config --global user.name "Federico Cabanilla"
+  308  git commit -m "se corrigio el error de la multiplicacion secuencial"
+  309  git push origin master 
+  310  cat ~/.ssh/id_rsa.pub | xclip -sel clip.
+  311  sudo apt install xclip
+  312  cat ~/.ssh/id_rsa.pub | xclip -sel clip.
+  313  git push origin master 
+  314  git pull
+  315  git push origin master 
+  316  git config --global core.editor "vim"
+  317  git commit -a
+  318  ls
+  319  vim Makefile 
+  320  make test
+  321  vim Makefile 
+  322  make test
+  323  git status
+  324  git rm ../cap_2018/
+  325  git status
+  326  git rm ../cap_2018/
+  327  git status
+  328  rm -rf ../cap_2018/
+  329  git status
+  330  git commit -a
+  331  git push origin master 
+  332  reboot
+  333  sudo reboot
+  334  htop
+  335  sudo apt install htop
+  336  htop
+  337  bin/fixScreen 
+  338  cd cosas/iua/hpc/cabanilla/
+  339  git status 
+  340  git pull
+  341  ls
+  342  cd TP5/
+  343  ls
+  344  cd
+  345  cd cosas/iua/soa/Gaites/
+  346  ls
+  347  gcc -c O3 mutant.c -o mutant
+  348  gcc -c -O3 mutant.c -o mutant
+  349  ls
+  350  ./mutant
+  351  chmod mutant +x
+  352  chmod +x mutant
+  353  ./mutant
+  354  make
+  355  make test
+  356  make
+  357  make test
+  358  make notas
+  359  make notasñ
+  360  make notas
+  361  ls
+  362  bin/fixScreen 
+  363  htop 
+  364  bin/fixScreen 
+  365  cd soa
+  366  cd cosas/iua/soa/
+  367  ls
+  368  mv Gaites/ gaites
+  369  cd gaites/
+  370  ls
+  371  make
+  372  make notas
+  373  make clean
+  374  vim makefile 
+  375  make clean
+  376  make notas
+  377  ls
+  378  cd ..
+  379  git clone git@github.com:fcabanilla/soaMutant.git mutant
+  380  cat ~/.ssh/id_rsa.pub | xclip -sel clip.cat ~/.ssh/id_rsa.pub | xclip -sel clip.
+  381  sudo apt install xclip 
+  382  cat ~/.ssh/id_rsa.pub | xclip -sel clip.
+  383  git clone git@github.com:fcabanilla/soaMutant.git mutant
+  384  ls
+  385  cd mutant/
+  386  ls
+  387  git mutant
+  388  git status
+  389  git add .
+  390  git commit -a
+  391  git push origin master 
+  392  reboot 
+  393  bin/fixScreen 
+  394  cd cosas/iua/soa/mutant/
+  395  ls
+  396  make notas 
+  397  make notas
+  398  make notas 
+  399  make notas
+  400  make notas 
+  401  git status 
+  402  git add makefile mutant.c 
+  403  git rm notas.c 
+  404  git status 
+  405  rm mutant.c 
+  406  rm notas.c 
+  407  git rm notas.c 
+  408  git status 
+  409  git status
+  410  git rm mutant
+  411  git status
+  412  git commit -a
+  413  git push origin master 
+  414  cd cosas/iua/soa/mutant/
+  415  make mutant
+  416  make test
+  417  make mutant
+  418  make clean 
+  419  bin/fixScreen 
+  420  ls
+  421  soa
+  422  cd cosas/iua/soa/
+  423  ls
+  424  cd gaites/
+  425  ls
+  426  cd ..
+  427  rm -rf gaites/ Gaites/
+  428  rm -rf httpServer1.js httpServer.js  index.html mutant/ vagrant/ replPorSocket.js 
+  429  ls
+  430  rm repl.js 
+  431  ls
+  432  git clone git@github.com:fcabanilla/soaMutant.git
+  433  ls
+  434  cd soaMutant/
+  435  ls
+  436  npm install
+  437  node
+  438  cd cosas/iua/soa/soaMutant/
+  439  ls
+  440  sudo apt install npm -y
+  441  node app.js 
+  442  node -v
+  443  sudo apt remove node
+  444  ls /opt/
+  445  sudo rm -r /opt/node-v0.12.4/
+  446  ls /opt/
+  447  node
+  448  whereis nodejs
+  449  nodejs
+  450  whereis nodejs
+  451  sudo apt remove nodejs
+  452  cd
+  453  node
+  454  curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+  455  sudo apt-get install -y nodejs
+  456  node -v
+  457  npm
+  458  npm -v
+  459  node
+  460  ls cosas/curso
+  461  mkdir cosas/curso
+  462  cd cosas/curso
+  463  ls
+  464  cd nodeJS&Angular2
+  465  ls
+  466  cd nodeJSAngular2
+  467  mkdir nodeJS&Angular2
+  468  ls
+  469  mv nodeJS/ nodeJSAngular
+  470  cd nodeJSAngular/
+  471  atom .
+  472  ls
+  473  node calculator.js 23 45 123
+  474  node calculator.js 23 mas 8
+  475  node calculator.js 23 menos 8
+  476  node calculator.js 23 mas 8
+  477  node calculator.js 1024 dividido 8
+  478  cd ..
+  479  mv nodeJSAngular/ nodeAngular2
+  480  cd nodeAngular2/
+  481  mkdir api-restful-favoritos
+  482  cd api-restful-favoritos/
+  483  npm init
+  484  npm install 
+  485  npm install -h
+  486  npm install -s express
+  487  cat package.json 
+  488  node index.js 
+  489  npm install body-parser -s
+  490  node index.js 
+  491  npm install body-parser -s
+  492  node index.js 
+  493  npm install body-parser -s
+  494  node index.js 
+  495  npm i -D nodemon
+  496  node test
+  497  npm start
+  498  tar -xzvf Downloads/tar/Postman-linux-x64-6.0.10.tar.gz 
+  499  ls
+  500  sudo mv Downloads/tar/Postman-linux-x64-6.0.10.tar.gz /opt/postman
+  501  #ln -s /opt/postman 
+  502  cd /opt/
+  503  ls
+  504  sudo rm /opt/postman 
+  505  cd
+  506  sudo mv Postman/ /opt/postman
+  507  ln -s /opt/postman/Postman /usr/bin/postman
+  508  sudo ln -s /opt/postman/Postman /usr/bin/postman
+  509  postman &
+  510  bin/fixScreen 
+  511  ls
+  512  soa
+  513  cd cosas/curso/nodeAngular2/api-restful-favoritos/
+  514  ls
+  515  npm start
+  516  sudo dpkg -i Downloads/deb/google-chrome-stable_current_amd64.deb 
+  517  cat cosas/iua/soa/soaMutant/app.js 
+  518  cd cosas/iua/soa/soaMutant/
+  519  ls
+  520  make test
+  521  make testHuman
+  522  make test
+  523  make testHuman 
+  524  make testMutant
+  525  make test
+  526  make
+  527  make test
+  528  make bin/mutant 
+  529  vim Documents/PARA\ SOA\ PRACTICO\ MERCLibre.txt 
+  530  pluma
+  531  xedit 
+  532  xed
+  533  cd cosas/iua/soa/soaMutant/
+  534  ls
+  535  git status
+  536  git pull 
+  537  node app.js 
+  538  npm start
+  539  git status
+  540  git commit -a
+  541  ls
+  542  vim README.md 
+  543  git commit -a
+  544  git push origin master 
+  545  ls
+  546  vim makefile 
+  547  make clean
+  548  ls
+  549  node app.js 
+  550  git status
+  551  ls
+  552  cat compile 
+  553  bin/fixScreen 
+  554  ssh-copy-id root@localhost
+  555  sudo su
+  556  sudo root
+  557  su
+  558  ssh-copy-id root@localhost
+  559  ssh root@localhost
+  560  ks
+  561  ls
+  562  cd Pictures/
+  563  ls
+  564  mc
+  565  google-chrome
+  566  ls
+  567  ls bin/
+  568  ls cosas/
+  569  bin/fixScreen 
+  570  sudo apt-get install unity-gtk2-module unity-gtk3-module
+  571  sudo add-apt-repository ppa:webupd8team/mate
+  572  sudo apt update
+  573  sudo apt install xfce4-vala-appmenu-plugin
+  574  xfconf-query -c xsettings -p /Gtk/ShellShowsMenubar -n -t bool -s true
+  575  sudo apt install xfconf
+  576  xfconf-query -c xsettings -p /Gtk/ShellShowsMenubar -n -t bool -s true
+  577  sudo xfconf-query -c xsettings -p 
+  578  cd /tmp && wget -c https://github.com/lestcape/Global-AppMenu/archive/master.zip && unzip master.zip && cd Global-AppMenu-master && mv globalAppMenu@lestcape ~/.local/share/cinnamon/applets/
+  579  sudo apt-get install gnome-shell-extensions
+  580  gnome-shell
+  581  cd
+  582  bin/fixScreen 
+  583  gnome-shell Downloads/gnomenu@panacier.gmail.com.v24.shell-extension.zip 
+  584  bin/fixScreen \
+  585  bin/fixScreen
+  586  vagr
+  587  apt-cache show vagrant
+  588  sudo apt-get install vagrant
+  589  vagrant -v
+  590  ls
+  591  mkdir vagrant-vms
+  592  cd vagrant-vms/
+  593  ls
+  594  vagrant init centos/6
+  595  vagrant up
+  596  virtualbox 
+  597  vagrant up --provider=PROVIDER
+  598  vim Vagrantfile 
+  599  vagrant up --provider=PROVIDER
+  600  vim Vagrantfile 
+  601  vagrant up --provider=PROVIDER
+  602  vim Vagrantfile 
+  603  sudo apt remove vagrant -y
+  604  vagrant up
+  605  vagrant ssh
+  606  vagrant destroy
+  607  vim Vagrantfile 
+  608  vagrant up
+  609  vim Vagrantfile \
+  610  vim Vagrantfile 
+  611  vagrant 
+  612  vim Vagrantfile 
+  613  vagrant provision
+  614  vagrant status
+  615  vagrant up
+  616  vim Vagrantfile 
+  617  vagrant plugin install vagrant-scp
+  618  vagrant scp ~/Downloads/tar/hadoop-2.7.7.tar.gz ~
+  619  vagrant ssh
+  620  vagrant scp ~/Downloads/tar/hadoop-2.7.7.tar.gz /home/vagrant
+  621  vagrant ssh
+  622  vagrant scp ~/Downloads/rpm/jdk-8u181-linux-x64.rpm /home/vagrant
+  623  vagrant up
+  624  cd vagrant-vms/
+  625  ls
+  626  vagrant ssg
+  627  vagrant ssh
+  628  vagrant halt
+  629  vim Vagrantfile 
+  630  vagrant ssh
+  631  vagrant stop
+  632  vagrant halt
+  633  sudo dpkg -i Downloads/deb/vagrant_2.1.3_x86_64.deb 
+  634  ping 10.0.2.15
+  635  ifconfig 
+  636  ping 192.168.33.10
+  637  ls
+  638  cd vagrant-vms/hadoop/nodo-01/
+  639  vagrant ssh
+  640  ls
+  641  ifconfig 
+  642  ping 192.168.33.10
+  643  cd vagrant-vms/hadoop/nodo-01/
+  644  ls
+  645  vagrant status
+  646  vagrant up
+  647  vagrant ssh
+  648  bin/fixScreen
+  649  cd vagrant-vms/hadoop/nodo-01/
+  650  vagrant up
+  651  vagrant status
+  652  vagrant ssh
+  653  vagrant halt
+  654  poweroff 
+  655  sensible-browser http://192.168.33.10
+  656  cd vagrant-vms/hadoop/nodo-01/
+  657  vim Vagrantfile 
+  658  sudobin/fixScreen 
+  659  sudo bin/fixScreen 
+  660  cd vagrant-vms/hadoop/nodo-01/
+  661  ls
+  662  vagrant up
+  663  vagrant ssh
+  664  cd vagrant-vms/hadoop/nodo-01/
+  665  ls
+  666  vagrant scp quijote.txt /home/vagrant
+  667  bin/fixScreen 
+  668  cd vagrant-vms/hadoop/nodo-01/
+  669  ls
+  670  vagrant up 
+  671  vagrant ssh
+  672  bin/fixScreen 
+  673  ssh atlas
+  674  bin/fixScreen 
+  675  uname -a
+  676  sudo vim /etc/default/grub
+  677  sudo update-grub
+  678  reboot 
+  679  ls
+  680  cd Downloads/
+  681  ls
+  682  cd ../Desktop/
+  683  ls
+  684  cd amdgpu-pro-16.40-348864/
+  685  ls
+  686  dpkg -l amdgpu-pro
+  687  sudo dpkg -l amdgpu-pro
+  688  ./amdgpu-pro-install -y
+  689  ./amdgpu-pro-install
+  690  vim amdgpu-pro-install 
+  691  ./amdgpu-pro-install
+  692  ./amdgpu-pro-install -y
+  693  sudo reboot
+  694  bin/fixScreen 
+  695  alsamixer
+  696  bin/fixScreen 
+  697  groups
+  698  sudo usermod -a video $LOGNAME
+  699  sudo usermod -a -G video $LOGNAME
+  700  echo $LOGNAME
+  701  bin/fixScreen 
+  702  spotify 
+  703  #sudo apt remove spo
+  704  whereis spotify
+  705  /snap/bin/spotify 
+  706  ls /snap/bin/spotify 
+  707  ls - l/snap/bin/spotify 
+  708  ls -l /snap/bin/spotify 
+  709  sudo snap remove spotify
+  710  sudo snap install spotify
+  711  spotify 
+  712  sudo snap remove spotify
+  713  sudo snap  spotify
+  714  sudo snap  help
+  715  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 0DF731E45CE24F27EEEB1450EFDC8610341D9410
+  716  sudo add-apt-repository "deb http://repository.spotify.com stable non-free"
+  717  sudo apt install spotify-client
+  718  ls
+  719  cd vagrant-vms/
+  720  ls
+  721  mkdir node
+  722  cd node/
+  723  ls
+  724  vagrant init ubuntu/bionic64
+  725  #vagrant up
+  726  sudo dpkg -i /home/fcabanilla/Downloads/deb/vagrant_2.1.5_x86_64.deb 
+  727  vagrant --version
+  728  ls
+  729  cd ..
+  730  rm -rf node/
+  731  mkdir node
+  732  cd node/
+  733  ls
+  734  vagrant init ubuntu/bionic64
+  735  vagrant up
+  736  vagrant ssh
+  737  ls
+  738  vim Vagrantfile 
+  739  cd vagrant-vms/node/
+  740  ls
+  741  vagrant scp ~/Downloads/tar/node-v10.10.0-linux-x64.tar.xz /home/vagrantDownloads
+  742  cat ~/Downloads/scripts/atom.sh 
+  743  ls
+  744  cd
+  745  history | grep ln
+  746  history 
+  747  cd vagrant-vms/node/
+  748  mkdir data
+  749  'ladtkhgSF>h nbsf
+  750  ghnboggl;+a'pen a;
+  751  tjhaghnapr+
+  752  ls
+  753  cdc vagrant-vms/node/data/
+  754  ls
+  755  cd vagrant-vms/node/data/
+  756  ls
+  757  vagrant status
+  758  vim Va
+  759  cd ..
+  760  ls
+  761  vagrant status
+  762  vim Vagrantfile 
+  763  vagrant status
+  764  vagrant reload
+  765  ls
+  766  vagrant ssh
+  767  vagrant reload
+  768  l
+  769  vagrant halt
+  770  vagrant status
+  771  vagrant up
+  772  vim Vagrantfile 
+  773  vagrant up
+  774  vim Vagrantfile 
+  775  vagrant reload
+  776  vim Vagrantfile 
+  777  vagrant reload
+  778  mongo
+  779  mongo -u admin -p admin --port 9003 --authenticationDatabase admin
+  780  mongo -u admin -p admin --host localhost:9003 --authenticationDatabase admin
+  781  vagrant halt
+  782  poweroff 
+  783  cd vagrant-vms/node/
+  784  vagrant ssh
+  785  cd vagrant-vms/node/
+  786  vagrant ssh
+  787  bin/fixScreen 
+  788  cd vagrant-vms/node/
+  789  vagrant up
+  790  vagrant ssh
+  791  vagrant halt
+  792  reboot 
+  793  cd vagrant-vms/node/
+  794  vagrant ssh
+  795  ls
+  796  sudo apt install okultar -y
+  797  sudo apt install okular -y
+  798  okular 1b4f4d299ebc0f36bb5003e2.pdf 
+  799  ls
+  800  ls bin/
+  801  bin/cpuinfo 
+  802  ls
+  803  ll
+  804  ls -l
+  805  sudo dpkg -i Downloads/deb/teamviewer_13.2.13582_amd64.deb 
+  806  sudo apt install -f
+  807  vim /usr/share/xsessions/cinnamon.desktop 
+  808  bin/fixScreen 
+  809  ssh atlas
+  810  vim .chrome-remote-desktop-session
+  811  sudo dpkg -i Downloads/deb/chrome-remote-desktop_current_amd64.deb 
+  812  sudo apt install -fy
+  813  echo $(if -u)
+  814  echo $(id -u)
+  815  bin/fixScreen 
+  816  ls
+  817  bin/fixScreen 
+  818  uname -r
+  819  git --git-dir=/dev/null clone --depth=1 https://github.com/M-Bab/linux-kernel-amdgpu-binaries
+  820  cd linux-kernel-amdgpu-binaries
+  821  sudo dpkg -i [linux-headers-name].deb [linux-image-name].deb firmware-radeon-ucode_*_all.deb
+  822  sudo dpkg -i linux-headers-5.0.0-rc6-19.02.12.amdgpu_5.0.0-rc6-19.02.12.amdgpu-1_amd64.deb linux-image-5.0.0-rc6-19.02.12.amdgpu_5.0.0-rc6-19.02.12.amdgpu-1_amd64.deb firmware-radeon-ucode_2.40_all.deb 
+  823  uname -r
+  824  sudo dpkg -i linux-headers-5.0.0-rc6-19.02.12.amdgpu_5.0.0-rc6-19.02.12.amdgpu-1_amd64.deb linux-headers-5.0.0-rc6-19.02.13.amdgpu.ubuntu_5.0.0-rc6-19.02.13.amdgpu.ubuntu-1_amd64.deb linux-image-5.0.0-rc6-19.02.13.amdgpu.ubuntu_5.0.0-rc6-19.02.13.amdgpu.ubuntu-1_amd64.deb firmware-radeon-ucode_2.40_all.deb 
+  825  sudo update-grub
+  826  reboot 
+  827  cd /tmp/linux-kernel-amdgpu-binaries/
+  828  ll
+  829  ls .deb
+  830  ls *.deb
+  831  bin/fixScreen 
+  832  uname -r
+  833  cd vagrant-vms/
+  834  mkdir rancher
+  835  cd rancher/
+  836  vagrant init ubuntu/xenial64
+  837  vagrant up
+  838  VBoxManage --version
+  839  sudo /sbin/vboxconfig
+  840  more /var/log/vbox-install.log
+  841  virtualbox -v
+  842  sudo apt remove virtualbox-5.2 
+  843  virtualbox -v
+  844  vagrant up
+  845  vim Vagrantfile 
+  846  vagrant provision
+  847  vagrant restart
+  848  vagrant reload
+  849  sudo apt install parcellite -y
+  850  vagrant halt
+  851  mkdir rancher-host01
+  852  cd rancher-host01/
+  853  vagrant init ubuntu/xenial64
+  854  vim .
+  855  xkill 
+  856  bin/fixScreen 
+  857  sudo apt install flameshort
+  858  sudo apt update
+  859  sudo apt install flameshort
+  860  sudo dpkg -i Downloads/deb/chrome-remote-desktop_current_amd64.deb 
+  861  sudo apt install flameshot
+  862  sudo dpkg -i Downloads/deb/flameshot_0.6.0_bionic_x86_64.deb 
+  863  sudo apt -fy install
+  864  sudo apt install -fy
+  865  sudo apt autoremove -y
+  866  sudo apt install -y libq5core
+  867  sudo dpkg -i Downloads/deb/libqt5core5a_5.11.3+dfsg1-1_i386.deb 
+  868  sudo apt install -fy
+  869  sudo dpkg -i Downloads/deb/libqt5core5a_5.11.3+dfsg1-1_amd64.deb 
+  870  sudo apt install -fy
+  871  sudo dpkg -i Downloads/deb/flameshot_0.6.0_bionic_x86_64.deb 
+  872  sudo apt install -fy
+  873  sudo apt autoremove
+  874  ls
+  875  cd vagrant-vms/rancher/
+  876  vagrant ssh
+  877  sudo apt install parcellite 
+  878  parcellite 
+  879  sudo apt install yakuake
+  880  yakuake 
+  881  cd vagrant-vms/rancher/
+  882  vagrant up
+  883  vagrant ssh
+  884  history 
+  885  history 
+  886  history | more
+  887  history > history_desktop.txt
+  888  sudo history > history_sudo_desktop.txt
+  889  sudo -s
+  890  sudo su
+  891  albert
+  892  sudo apt install albert
+  893  sudo apt update 
+  894  sudo apt install albert
+  895  sudo apt update 
+  896  reboot 
+  897  ping jacinto.unc.edu.ar
+  898  ssh jacinto.unc.edu.ar
+  899  ./bin/fixScreen 
+  900  sudo apt-get remove linux-image-version_number*
+  901  sudo apt-get remove linux-headers-version_number*
+  902  sudo apt-get remove linux-image-extra-version_number* 
+  903  sudo rm -rf /lib/modules/5.0.0-rc6-19.02.1*
+  904  sudo rm -f /boot/vmlinuz-5.0.0-rc6-19.02.1*
+  905  sudo rm /boot/*5.0.0-rc6-19.02.1
+  906  sudo rm /boot/*amdgpu
+  907  ls /boot/*amd
+  908  ls /boot/*
+  909  sudo rm /boot/*amdgpu*
+  910  ls /boot/*
+  911  ls /boot/*amd
+  912  ls /boot/*amd*
+  913  ls /boot/ | grep 5
+  914  sudo update-grub
+  915  reboot 
+  916  ls
+  917  history 
+  918  history | grep amd
+  919  history | grep amdgpu-pro
+  920  history
+  921  cd Desktop/amdgpu-pro-16.40-348864/
+  922  dpkg -l amdgpu-pro
+  923  sudo dpkg -l amdgpu-pro
+  924  ./amdgpu-pro-install -y
+  925  reboot 
+  926  bin/fixScreen 
+  927  ls
+  928  history 
+  929  cd Desktop/amdgpu-pro-16.40-348864/
+  930  ./amdgpu-pro-install -h
+  931  ./amdgpu-pro-install 
+  932  groups
+  933  echo $LOGNAME
+  934  sudo usermod -a -G video $LOGNAME 
+  935  ./amdgpu-pro-install –y
+  936  ./amdgpu-pro-install -y
+  937  cat /var/lib/dkms/amdgpu-pro/16.40-348864/build/make.log
+  938  sudo apt autoremove -y
+  939  reboot 
+  940  lsb_release -a
+  941  uname -a
+  942  ls
+  943  cd Downloads/
+  944  l
+  945  ls
+  946  cp ../Desktop/amdgpu-pro-16.40-348864.tar.xz .
+  947  ls
+  948  tar -Jxvf amdgpu-pro-16.40-348864.tar.xz 
+  949  ls
+  950  cd amdgpu-pro-16.40-348864/
+  951  ls
+  952  ./amdgpu-pro-install -h
+  953  vim amdgpu-pro-install 
+  954  vim Desktop/amdgpu-pro-16.40-348864/amdgpu-pro-install 
+  955  sudo apt install gparted -y
+  956  fixScreen 
+  957  history 
+  958  locate linux-kernel-amdgpu-binaries
+  959  ls -R | grep linux-kernel-amdgpu-binaries
+  960  git --git-dir=/dev/null clone --depth=1 https://github.com/M-Bab/linux-kernel-amdgpu-binaries
+  961  cd linux-kernel-amdgpu-binaries/
+  962  sudo dpkg -i linux-headers-5.0.17-19.05.21.amdgpu.ubuntu_5.0.17-19.05.21.amdgpu.ubuntu-1_amd64.deb linux-image-5.0.17-19.05.21.amdgpu.ubuntu_5.0.17-19.05.21.amdgpu.ubuntu-1_amd64.deb  firmware-radeon-ucode_2.70_all.deb 
+  963  git checkout f2e896998426319a468bf4eea80f304739257c0b
+  964  git checkout 2fb13d8 
+  965  sudo apt remove linux-headers-5.0.*
+  966  sudo apt remove linux-headers-5.0.17-19.05.21.amdgpu.ubuntu 
+  967  sudo apt remove linux-headers-5.0.0-rc6-19.02.1*
+  968  cd 
+  969  cd Desktop/
+  970  ls
+  971  sudo dpkg -i linux-headers-5.0.0-rc6-19.02.12.amdgpu_5.0.0-rc6-19.02.12.amdgpu-1_amd64.deb linux-image-5.0.0-rc6-19.02.12.amdgpu_5.0.0-rc6-19.02.12.amdgpu-1_amd64.deb
+  972  sudo update-grub
+  973  reboot 
+  974  bin/fixScreen 
+  975  zerotier-cli join a84ac5c10a9aed6b
+  976  sudo zerotier-cli join a84ac5c10a9aed6b
+  977  ifconfig 
+  978  xpenguins -n 42 -s
+  979  bw list items
+  980  npm install -g @bitwarden/cli
+  981  sudo npm install -g @bitwarden/cli
+  982  bw login federico.cabanilla@gmail.com
+  983  bw list items --search docker
+  984  vim .bashrc 
+  985  mkdir ~/.bash_aliases
+  986  vim ~/.bash_aliases
+  987  rm ~/.bash_aliases
+  988  rm -rm  ~/.bash_aliases
+  989  rm -rf  ~/.bash_aliases
+  990  vim ~/.bash_aliases
+  991  bash
+  992  vim ~/.bash_aliases
+  993  bash
+  994  vim ~/.bash_aliases
+  995  bash
+  996  vim ~/.bash_aliases
+  997  bash
+  998  bw list items --search dockerhub
+  999  bw list items --search docker
+ 1000  bw get password https://hub.docker.com
+ 1001  bw get password https://hub.docker
+ 1002  bw get password id.docker.com
+ 1003  bw get password id.docker.com db63d13f-1fd5-422f-8c72-aa7700e9965d
+ 1004  bw get password id.docker.com id db63d13f-1fd5-422f-8c72-aa7700e9965d
+ 1005  bw get id db63d13f-1fd5-422f-8c72-aa7700e9965d  password id.docker.com
+ 1006  bw get id db63d13f-1fd5-422f-8c72-aa7700e9965d password id.docker.com
+ 1007  bw get item db63d13f-1fd5-422f-8c72-aa7700e9965d password id.docker.com
+ 1008  cd Downloads/
+ 1009  ls
+ 1010  chmod +x Bitwarden-1.15.2-x86_64.AppImage 
+ 1011  ./Bitwarden-1.15.2-x86_64.AppImage 
+ 1012  cd ..
+ 1013  ls
+ 1014  cd educacionIT/
+ 1015  ls
+ 1016  ./init_proyect 00-pruebita 7
+ 1017  git status
+ 1018  rm -rf 00-pruebita/
+ 1019  git status
+ 1020  tree -L 2
+ 1021  tree -L 3
+ 1022  tree -L 4
+ 1023  ./bin/fixScreen 
+ 1024  ls
+ 1025  cd educacionIT/
+ 1026  ls
+ 1027  git status
+ 1028  git add .
+ 1029  git commit -m 'Agrego un apunte de excel Fundamentos Clase 01'
+ 1030  git push
+ 1031  cd ..
+ 1032  ls
+ 1033  mkdir tutoriales
+ 1034  cd tutoriales/
+ 1035  mkdir docker
+ 1036  cd docker/
+ 1037  git clone git@github.com:prakhar1989/docker-curriculum.gitgit@github.com:prakhar1989/docker-curriculum.git
+ 1038  gir clone git@github.com:prakhar1989/docker-curriculum.git
+ 1039  git clone git@github.com:prakhar1989/docker-curriculum.git
+ 1040  ls
+ 1041  xs docker-curriculum/
+ 1042  cd docker-curriculum/q
+ 1043  cd docker-curriculum/
+ 1044  ls
+ 1045  sudo apt-get remove docker docker-engine docker.io containerd runc -y 
+ 1046  sudo apt purge docker docker-engine docker.io containerd runc -y 
+ 1047  sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent     software-properties-common
+ 1048  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+ 1049  sudo apt-key fingerprint 0EBFCD88
+ 1050  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+ 1051     $(lsb_release -cs) \
+ 1052     stable"
+ 1053  sudo apt-get update
+ 1054  sudo apt-get install docker-ce docker-ce-cli containerd.io
+ 1055  sudo apt-get update
+ 1056  cd /etc/apt/sources.list.d
+ 1057  ll
+ 1058  rm -rf amdgpu-pro.list 
+ 1059  sudo rm -rf amdgpu-pro.list 
+ 1060  cd ..
+ 1061  ls
+ 1062  cd sources.list.d/
+ 1063  ls
+ 1064  ll
+ 1065  cd ..
+ 1066  cat sources.list
+ 1067  sudo su
+ 1068  vim /etc/apt/sources.list
+ 1069  sudo vim /etc/apt/sources.list
+ 1070  history 
+ 1071  vim /etc/apt/sources.list.d/additional-repositories.list 
+ 1072  sudo vim /etc/apt/sources.list.d/additional-repositories.list 
+ 1073  sudo apt update
+ 1074  sudo apt upgrade -y
+ 1075  sudo apt-get update
+ 1076  sudo apt-get install apt-transport-https ca-certificates -y
+ 1077  sudo apt autoremove -y
+ 1078  sudo apt install -fy
+ 1079  sudo apt-get install apt-transport-https ca-certificates -y
+ 1080  sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+ 1081  sudo echo deb https://apt.dockerproject.org/repo ubuntu-xenial main >> /etc/apt/sources.list.d/docker.list
+ 1082  sudo su
+ 1083  sudo apt-get update
+ 1084  sudo apt-get purge lxc-docker
+ 1085  sudo apt-get install linux-image-extra-$(uname -r) -y
+ 1086  sudo apt-get install docker-engine cgroup-lite apparmor -y
+ 1087  sudo usermod -a -G docker $USER
+ 1088  sudo service docker start
+ 1089  sudo docker run hello-world
+ 1090  docker pull busybox
+ 1091  sudo usermod -aG docker ${USER}
+ 1092  su - ${USER}
+ 1093  id -nG
+ 1094  docker
+ 1095  docker pull busybox
+ 1096  docker images
+ 1097  docker run busybox
+ 1098  docker run busybox echo "hello from busybox"
+ 1099  docker container prune 
+ 1100  docker run --rm prakhar1989/static-site
+ 1101  docker run -d -P --name static-site prakhar1989/static-site
+ 1102  e61d12292d69556eabe2a44c16cbd54486b2527e2ce4f95438e504afb7b02810
+ 1103  docker ps
+ 1104  docker port static-site
+ 1105  docker stop b32715e6bc94
+ 1106  docker stop static-site
+ 1107  docker ps
+ 1108  docker images
+ 1109  docker search ubuntu
+ 1110  docker search mysql;
+ 1111  cd tutoriales/docker/docker-curriculum/
+ 1112  ls
+ 1113  cd flask-app/
+ 1114  ls
+ 1115  cd ..
+ 1116  atom .
+ 1117  docker build -t fcabanilla/catnip .
+ 1118  cd flask-app/
+ 1119  docker build -t fcabanilla/catnip .
+ 1120  docker images
+ 1121  docker run -p 8888:5000 fcabanilla/catnip
+ 1122  docker push fcabanilla/catnip
+ 1123  docker login
+ 1124  ls
+ 1125  docker push fcabanilla/catnip
+ 1126  docker run -p 8888:5000 fcabanilla/catnip
+ 1127  cd ..
+ 1128  ls
+ 1129  cd ..
+ 1130  ls
+ 1131  git status
+ 1132  cd docker-curriculum/
+ 1133  git status
+ 1134  cd ..
+ 1135  git clone git@github.com:prakhar1989/FoodTrucks.git
+ 1136  tree
+ 1137  tree 
+ 1138  tree -L 2
+ 1139  cd FoodTrucks/
+ 1140  ls
+ 1141  tree -L 2
+ 1142  docker search elasticsearch
+ 1143  docker pull docker.elastic.co/elasticsearch/elasticsearch:6.3.2
+ 1144  docker run -d --name es -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:6.3.2
+ 1145  docker ps
+ 1146  docker stop es 
+ 1147  docker ps
+ 1148  docker run -d --name es -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:6.3.2
+ 1149  docker rm es 
+ 1150  docker run -d --name es -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:6.3.2
+ 1151  docker container ls
+ 1152  docker container logs es
+ 1153  curl 0.0.0.0:9200
+ 1154  ls
+ 1155  cat Dockerfile 
+ 1156  docker build -t fcabanilla/foodtraks-web .
+ 1157  cd ..
+ 1158  ls
+ 1159  cd ..
+ 1160  ls
+ 1161  cd educacionIT/
+ 1162  git status
+ 1163  git add . 
+ 1164  git commit -m "Actualizacion clase06 y modificacion init_proyect"
+ 1165  git push
+ 1166  git status
+ 1167  ifconfig 
+ 1168  ./bin/fixScreen 
+ 1169  vim /tmp/file.txt
+ 1170  gpg -c /tmp/file.txt 
+ 1171  cat /tmp/file.txt
+ 1172  ls /tmp
+ 1173  ls /tmp/file.txt
+ 1174  ls /tmp/file.txt*
+ 1175  rm /tmp/file.txt
+ 1176  cd tmp\
+ 1177  cd tmp
+ 1178  cd /tmp
+ 1179  gpg file.txt.gpg 
+ 1180  ls
+ 1181  ls file.txt*
+ 1182  cat file.txt
+ 1183  mkdir gpg
+ 1184  cd gpg/
+ 1185  vim fichero.txt
+ 1186  cat fichero.txt 
+ 1187  gpg -c fichero.txt 
+ 1188  cat fichero.txt.gpg 
+ 1189  gpg -ca fichero.txt 
+ 1190  ls
+ 1191  cat fichero.txt.asc 
+ 1192  cat -d fichero.txt.asc 
+ 1193  gpg -d fichero.txt.asc 
+ 1194  rm *
+ 1195  ls
+ 1196  gpg --gen-key 
+ 1197  ls
+ 1198  ll
+ 1199  cd 
+ 1200  cd .gnupg/
+ 1201  ls
+ 1202  gpg --list-keys
+ 1203  gpg --list-secret-keys
+ 1204  gpg --list-keys
+ 1205  gpg --send-keys --keyserver pgp.rediris.es 5D3B02A7 
+ 1206  gpg --keyserver pgp.rediris.es --search-keys 5D3B02A7 
+ 1207  gpg --send-keys --keyserver https://keyserver.ubuntu.com/ 5D3B02A7 
+ 1208  gpg --send-keys --keyserver keyserver.ubuntu.com 5D3B02A7 
+ 1209  gpg --keyserver keyserver.ubuntu.com --search-keys 5D3B02A7 
+ 1210  ls
+ 1211  gpg --list-secret-keys --keyid-format LONG
+ 1212  gpg --armor --export
+ 1213  #gpg --send-keys --keyserver keyserver.ubuntu.com
+ 1214  gpg --gen-key
+ 1215  gpg --list-secret-keys --keyid-format LONG
+ 1216  gpg --list-keys --keyid-format LONG
+ 1217  gpg --list-keys
+ 1218  gpg --send-keys --keyserver keyserver.ubuntu.com 5D3B02A7
+ 1219  gpg --fingerprint federico.cabanilla@gmail.com
+ 1220  gpg --keyserver keyserver.ubuntu.com --send-keys 5D3B02A7
+ 1221  gpg --list-keys --keyid-format LONG
+ 1222  history > ~/educacionIT/01-linuxAdministrador/clase06/apuntes/historial_gpg
