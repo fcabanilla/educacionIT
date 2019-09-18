@@ -1,8 +1,3 @@
-Terminology
-In the last section, we used a lot of Docker-specific jargon which might be
-confusing to some. So before we go further, let me clarify some terminology that
-is used frequently in the Docker ecosystem.
-
 Images - The blueprints of our application which form the basis of containers.
 In the demo above, we used the docker pull command to download the busybox
 image.Containers - Created from Docker images and run the actual application.
