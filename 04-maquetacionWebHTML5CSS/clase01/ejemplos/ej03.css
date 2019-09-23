@@ -1,0 +1,22 @@
+h1, h2, h3{
+    /* Selector grupal por etiquetas */
+    font-family: arial;
+}
+h1, .class_primer_div, #id_primer_div{
+    /* Selector grupal por clase y por ID */
+    font-size: 10px;
+}
+
+
+h1 {
+  text-align: center;
+  color: blue;
+}
+h2 {
+  text-align: center;
+  color: red;
+}
+p {
+  text-align: center;
+}
+  color: red;
