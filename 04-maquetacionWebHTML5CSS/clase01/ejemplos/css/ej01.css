@@ -1,0 +1,17 @@
+body{
+    background-color: #21252b;
+    color: white;
+}
+
+h1, h2, h3, p, .primer_h3{
+    text-align: left;
+    color: red;
+}
+p {
+  text-align: center;
+  color: yellow;
+}
+.primer_h3{
+    font-size: 32px;
+    color: green !important;
+}

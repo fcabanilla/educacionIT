@@ -1,0 +1,13 @@
+
+#cab_02{
+    background-color: pink;
+    border-color: blue;
+    border: 2px;
+    text-align: center;
+}
+
+
+.h3_en_general, .h2_en_general{
+    color: violet !important;
+    font-weight: lighter;
+}

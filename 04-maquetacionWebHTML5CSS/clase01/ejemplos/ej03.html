@@ -4,21 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=1080, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <!-- ESTO es bootstrap  -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/ej01.css">
+    <link rel="stylesheet" href="css/ej01_01.css">
     <title>Ejemplo n° 3 - Cabeceras</title>
 </head>
 <body>
     <!-- h1+h2+h3+h4+h5+h6 -->
-    <h1>Cabecera 1</h1>
-    <h2>Cabecera 2</h2>
-    <h3>Cabecera 3</h3>
-    <h4>Cabecera 4</h4>
-    <h5>Cabecera 5</h5>
-    <h6>Cabecera 6</h6>
 
+    <!-- div>((div>(h1+h2#cab_02+h3.h3_en_general primer_h3))+(div>(h4+h5+h6))) -->
+    <div>
+        <div>
+            <h1>"Primer cabecera tipo h1"</h1>
+            <h2 id="cab_02">"Primer cabecera tipo h2"</h2>
+            <h3 class="h3_en_general primer_h3">"Primer cabecera tipo h3"</h3>
+        </div>
+        <div>
+            <h4>"Primer cabecera tipo h4"</h4>
+            <h5>"Primer cabecera tipo h5"</h5>
+            <h6>"Primer cabecera tipo h6"</h6>
+        </div>
+    </div>
+
+<div><input type="button" value="Hola_soy_un_boton"></div>
+
+    Primer cabecera tipo h2
+    Primer cabecera tipo h3
+    Primer cabecera tipo h4
+    Primer cabecera tipo h5
+    Primer cabecera tipo h6
+
+    <p>*******************************************</p>
     <!-- div#id_div.class_div>h1+h2+h3+h4+h5+h6 -->
     <div id="id_primer_div" class="class_primer_div">
         <h1>Cabecera 1</h1>
-        <h2>Cabecera 2</h2>
+        <h2 class="h2_en_general">Cabecera 2</h2>
         <h3>Cabecera 3</h3>
         (div.caja>p)+(div.articulo>p)
     </div>
