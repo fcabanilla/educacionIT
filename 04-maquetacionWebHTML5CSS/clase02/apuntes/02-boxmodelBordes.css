@@ -1,0 +1,10 @@
+div{
+    width: 200px;
+    height: 300px;
+    border-width: 10px;
+    /* border-style: solid; */
+    /* border-top-style: solid; */
+
+    border-style: dotted;
+    border-color: cornflowerblue;
+}

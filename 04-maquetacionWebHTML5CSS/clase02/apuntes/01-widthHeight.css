@@ -1,0 +1,7 @@
+div{
+    background-color: lightblue;
+    width: 50%;
+    height: 500px;
+    min-width: 500px;
+    max-width: 700px;
+}
