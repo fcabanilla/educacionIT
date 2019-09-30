@@ -1,0 +1,17 @@
+div{
+    background-color: lightblue;
+    height: auto;
+    max-width: 700px;
+    min-width: 400px;
+    min-height: 300px;
+    max-height: 500px;
+    width: 50%;
+    /* padding-top: 10px; */
+    /* padding-left: 10px; */
+    padding: 10px; /*Para los 4 valores*/
+    padding: 10px 100px; /*Para arriba, derecha e izquierda*/
+    padding: 10px 100px 200px; /*Para arriba, derecha, abajo, izquierda (horario)*/
+}
+.sin_padding{
+    padding: 0;
+}

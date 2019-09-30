@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,700i');
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+
+* { box-sizing: border-box; margin:0; }
+body { font: 90% 'Lato', sans-serif;  color: #333;}
+#encabezado, #pie { padding: 1em; width: 100%; background-color: #a9a9a9; height:90px;  }
+
+#encabezado img { width: 50px; float: left; }
+
+#encabezado h1 { float: left; }
+#encabezado div { float: left; width: 20%; }
+#encabezado nav { float:right; width: 20%; }
+main { width: 100%;
+	background-color: lightgray;
+}
+
+
+img { width: 15%;}
+main section, main article { width: 100%; overflow:hidden;   }
+#seccion-empresa {  background-color: lightgreen;  }
+
+iframe { width: 20%; height: 20%;}
+#seccion-empresa div { float: left;  width: 50%; }
+
+#seccion-empresa + section { background-color:pink;    }
+#seccion-empresa + section img { float:left; }
+#seccion-empresa img { float: left; }
+article { height: 200px; background-color: lightblue; }
