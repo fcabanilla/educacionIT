@@ -1,11 +1,13 @@
-body{
-    font-size: 12px;
-}
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
 /* body, h1, p, ul{
     margin: 0;
 } */
 *{
     margin: 0;
+}
+body{
+    font-size: 12px;
+    margin: 10px;
 }
 
 div{

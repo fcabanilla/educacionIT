@@ -3,9 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 body{
-    font: 12px 'Source Sans Pro', sans-serif;
+    /* font: 12px 'Source Sans Pro', sans-serif; */
+    font-family: 'Indie Flower', cursive;
+
 }
 #encabezado{
     width: 100%;
