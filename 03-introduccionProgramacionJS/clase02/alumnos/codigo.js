@@ -13,14 +13,14 @@
 // 	}else {
 // 		alert("usted tiene 20 años o mas pero no es el usuario correcto")
 // 	}
-// } 
+// }
 // else {
 // 		alert("usted tiene menos de 20 años, adios!")
 // }
 
 // const pass = 1234;
 // const nombre = 'fede';
-// const edad_minima = 20; 
+// const edad_minima = 20;
 
 // var input_edad = prompt('Cual es tu edad?')
 // var input_nombre = prompt('Cual es tu nombre?')
@@ -30,14 +30,14 @@
 // 	alert(`Bienvenido al sistema ${nombre}`)
 // }else {
 // 	alert(`La edad, nombre o contraseña son incorrectos`)
-// // 
+// //
 
 
 // if(diametro > 1.4){
 // 	alert("la rueda es para un vehiculo grande")
 // }else if(diametro <= 1.4 && < 0.8){
 // 	alert("la rueda es para un vehiculo mediano")
-// }else{ 
+// }else{
 // 	alert("la rueda es para un vehiculo pequeño")
 // }
 // }
@@ -65,3 +65,7 @@ var input_grosor = prompt('ahora ingrese el grosor')
 if(input_diametro > diametro_rueda_Vgrande && input_grosor < grosor_max || input_diametro <= diametro_rueda_Vgrande && input_diametro > diametro_rueda_Vmediano && input_grosor < grosor_min){
 	alert('el grosro de la rueda es inferior al recomendado')
 }
+console.log("Comparacion");
+console.log(input_diametro > diametro_rueda_Vgrande && input_grosor < grosor_max || input_diametro <= diametro_rueda_Vgrande && input_diametro > diametro_rueda_Vmediano && input_grosor < grosor_min);
+console.log("Comparacion 2");
+console.log(!(input_diametro > diametro_rueda_Vgrande));

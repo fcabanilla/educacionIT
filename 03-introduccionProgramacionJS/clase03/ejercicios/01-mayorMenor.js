@@ -1,20 +1,19 @@
 'use strict'
-let sum = 0;
-let sumandos = "";
+
 let menor, mayor;
 while (true) {
-    let value = +prompt("Enter a number", '');
-    if (!value) break; // (*)
+    let nuevo_valor = +prompt("Enter a number", '');
+    if (!nuevo_valor) break; // (*)
 
     if (menor || mayor) {
-        if (value < menor) {
-            menor = value
+        if (nuevo_valor < menor) {
+            menor = nuevo_valor
         }
-        if (value > mayor) {
-            mayor = value;
+        if (nuevo_valor > mayor) {
+            mayor = nuevo_valor;
         }
     } else {
-        menor = mayor = value;
+        menor = mayor = nuevo_valor;
     }
 }
 console.log(`El numero mayor es ${mayor}`);

@@ -1,0 +1,16 @@
+{
+    "nombre": "federico",
+    "apellido": "cabanilla",
+    "edad": 26,
+    "mascotas":["gato", "perro", "tortuga"],
+    "auto":{
+        "modelo":"fiesta",
+        "año":"2012",
+        "color":"azul"
+    }
+},
+{
+    "nombre": "arquimedes",
+    "apellido": "medina",
+    "edad": 25
+}

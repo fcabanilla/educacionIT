@@ -20,8 +20,9 @@ switch (dia) {
     case 5:
         mensaje = "SAN VIERNES!!!";
         break;
-    case 6:
+    default:
         mensaje = "QuE rEsACa qQuE TEngO!";
 }
-
 alert(mensaje)
+alert(dia)
+alert(fecha)

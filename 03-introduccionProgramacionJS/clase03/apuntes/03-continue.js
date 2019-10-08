@@ -8,12 +8,11 @@ console.log(`Resultado: ${resultado}`);
 
 for (var i = 0; i < letras.length; i++) {
     // alert(`Letra: ${letras[i]}`);
-    // console.log(`Letra: ${letras[i]}`);
     if (letras[i] == ' ') {
         continue;
-    } else {
-        resultado += letras[i];
     }
+    resultado = resultado + letras[i];
+    console.log(`Letra: ${letras[i]}`);
 }
 console.log(`Despues del FOR`);
 console.log(`Texto: ${texto}`);
