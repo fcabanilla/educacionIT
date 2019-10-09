@@ -1,0 +1,33 @@
+Los valores pasados ​​a una función como parámetros se copian a sus variables
+locales.
+
+Una función puede acceder a variables externas. Pero funciona solo de adentro
+hacia afuera. El código fuera de la función no ve sus variables locales.
+
+Una función puede devolver un valor. Si no lo hace, entonces su resultado no
+está definido.
+
+Para que el código sea limpio y fácil de entender, se recomienda utilizar
+principalmente variables y parámetros locales en la función, no variables externas.
+
+Siempre es más fácil comprender una función que obtiene parámetros, trabaja con
+ellos y devuelve un resultado que una función que no obtiene parámetros, pero
+modifica las variables externas como un efecto secundario.
+
+Nombramiento de funciones:
+
+Un nombre debe describir claramente lo que hace la función. Cuando vemos una
+llamada a la función en el código, un buen nombre nos da al instante una
+comprensión de lo que hace y devuelve.
+
+Una función es una acción, por lo que los nombres de las funciones suelen ser
+verbales.
+
+Existen muchos prefijos de funciones bien conocidos como crear ..., mostrar ...,
+obtener ..., verificar ... y así sucesivamente. Úsalos para insinuar lo que hace
+una función.
+
+Las funciones son los principales bloques de construcción de los guiones. Ahora
+hemos cubierto los conceptos básicos, por lo que en realidad podemos comenzar a
+crearlos y usarlos. Pero ese es solo el comienzo del camino. Volveremos a ellos
+muchas veces, profundizando en sus funciones avanzadas.
