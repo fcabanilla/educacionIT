@@ -1,0 +1,11 @@
+{
+    "esversion": 6,
+    "browser": true,
+    "devel": true,
+    "globals": {
+        "window": true,
+        "document": true,
+        "console": true,
+        "alert": true
+    }
+}
