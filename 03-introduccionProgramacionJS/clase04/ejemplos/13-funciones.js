@@ -1,4 +1,7 @@
+// 'use strict'
+
 function checkAge(age) {
+    'use strict';
     if (age > 18) {
         return true;
     } else {
