@@ -1,3 +1,5 @@
 // @ts-check
-'use strict'
+/*jshint esversion: 6 */
 
+// let arr = new Array();
+let arr = [];
