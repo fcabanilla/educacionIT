@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(50, 65, 53);
+}
+.pepe{
+    background-color: rgb(37, 57, 96);
+    height: 200px;
+    width: 200px;
+}
+
+#primer-div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}

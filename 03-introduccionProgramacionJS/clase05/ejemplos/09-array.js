@@ -6,7 +6,7 @@
     Metodos de un arreglo
 */
 function arrayUnshift(array) {
-    alert( fruits.unshift('Apple')); // Agregamos Apple y hacemos alerta
+    alert( fruits.unshift('Grapple')); // Agregamos Grapple y hacemos alerta
 
     alert( fruits ); // Orange, Pear
 }
@@ -18,4 +18,5 @@ let fruits = [
 ];
 
 console.log('Fruits: ', fruits);
-// arrayShift(fruits);
+console.log(arrayUnshift);
+arrayUnshift(fruits);

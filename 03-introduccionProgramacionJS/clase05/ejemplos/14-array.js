@@ -1,10 +1,12 @@
 // @ts-check
 /*jshint esversion: 6 */
 /*
-    NOMENCLATURA DE OBJETOS
+    Sobre el length
 */
-let arr = ["Apple", "Orange", "Pear"];
+let arr = [1, 2, 3, 4, 5];
 
-for (let key in arr) {
-  alert( arr[key] ); // Apple, Orange, Pear
-}
+arr.length = 2; // trunco hasta 2 elementos
+alert( arr ); // [1, 2]
+
+arr.length = 5; // Vuelvo a tener la longuitud
+alert( arr[3] ); 

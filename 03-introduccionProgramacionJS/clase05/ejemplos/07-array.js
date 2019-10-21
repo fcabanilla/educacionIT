@@ -6,9 +6,9 @@
     Metodos de un arreglo
 */
 function arrayPush(array) {
-    alert( array.push() ); // Removemos "Pear" y mostramos el alert
+    alert( array.push("Lemon", "uva") );
 
-    alert( array ); // Apple, Orange
+    alert( array );
 }
 
 let fruits = [
@@ -18,4 +18,4 @@ let fruits = [
 ];
 
 console.log('Fruits: ', fruits);
-// arrayPush(fruits);
+arrayPush(fruits);

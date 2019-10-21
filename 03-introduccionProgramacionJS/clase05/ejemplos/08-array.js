@@ -18,4 +18,4 @@ let fruits = [
 ];
 
 console.log('Fruits: ', fruits);
-// arrayShift(fruits);
+arrayShift(fruits);

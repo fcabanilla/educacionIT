@@ -3,15 +3,15 @@
 
 let fruits = ["Apple", "Orange", "Plum"];
 
-alert( fruits[0] ); // Apple
-alert( fruits[1] ); // Orange
-alert( fruits[2] ); // Plum
+// alert( fruits[0] ); // Apple
+// alert( fruits[1] ); // Orange
+// alert( fruits[2] ); // Plum
 
-console.log('Fruits[0]: ', fruits);
+console.log('Fruits: ', fruits);
 
 
 
 // podemos agregar un valor nuevo.
-fruits[3] = 'Lemon'; // now ["Apple", "Orange", "Plum", "Lemon"]
+fruits[4] = 'Lemon'; // now ["Apple", "Orange", "Plum", "Lemon"]
 console.log('Despues de agregar un valor nuevo');
-console.log('Fruits[0]: ', fruits);
+console.log('Fruits: ', fruits);

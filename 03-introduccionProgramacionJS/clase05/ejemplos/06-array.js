@@ -6,7 +6,7 @@
     Metodos de un arreglo
 */
 function arrayPop(array) {
-    alert( array.pop() ); // Removemos "Pear" y mostramos el alert
+    alert( array.push("arreglo_nuevo") ); // Removemos "Plum" y mostramos el alert
 
     alert( array ); // Apple, Orange
 }
@@ -16,6 +16,11 @@ let fruits = [
   "Orange",
   "Plum",
 ];
+let arreglo_nuevo = [
+  "Palta",
+  "lechuga",
+  "Tomate",
+];
 
 console.log('Fruits: ', fruits);
-// arrayPop(fruits);
+arrayPop(fruits);
