@@ -1,5 +1,5 @@
 #!/bin/bash
-SUB_FOLDERS=('laboratorios' 'manuales' 'sql' 'videos' 'apuntes')
+SUB_FOLDERS=('laboratorios' 'manuales' 'videos' 'apuntes' 'ejemplos' 'ejercicios')
 REGEX='^[0-9]+$'
 ERROR_VALUE=-1
 
@@ -43,6 +43,10 @@ while true; do
             cowsay -f tux "Se crearan $TOTAL_FOLDERS carpetas para este proyecto"
             echo ""
             # echo "Se crearan todas $TOTAL_FOLDERS las carpetas para este proyecto"
+            read -p "Queres publicar este curso en github? (y/N) " GITHUB
+            if test -z "$GITHUB"; then
+                GITHUB='n'
+            fi
             read -p "Esta seguro de continuar? (y/N) " SURE
 
             if test -z "$SURE"; then
@@ -57,17 +61,21 @@ while true; do
                     for ((j = 0; j < ${#SUB_FOLDERS[@]}; j++)); do
                         mkdir -p "$COURSE/clase0${i}/${SUB_FOLDERS[${j}]}"
                         touch "$COURSE/clase0${i}/${SUB_FOLDERS[${j}]}/.gitkeep"
+                        if [[ ${SUB_FOLDERS[${j}]} == 'manuales' ]]; then
+                            touch "$COURSE/clase0${i}/${SUB_FOLDERS[${j}]}/manual_alumno.pdf"
+                            touch "$COURSE/clase0${i}/${SUB_FOLDERS[${j}]}/manual_docente.pdf"
+                        fi
                         # echo -e "\t\t\t\t${SUB_FOLDERS[${j}]}\n"
                         # echo -e ".."
                     done
                 done
                 tree $COURSE
 
-                if ! test -z "$3"; then
+                if [[ 'y' == $GITHUB ]]; then
                     git add $COURSE
                     echo -e "git add $COURSE\n\n"
-                    git commit -m "Agregado el curso de $3"
-                    echo -e "\n\n git commit -m \"Agregado el curso de $3\""
+                    git commit -m "Agregado el curso de $COURSE"
+                    echo -e "\n\n git commit -m \"Agregado el curso de $COURSE\""
                     git push origin master
                     echo "git push origin master"
                 fi
