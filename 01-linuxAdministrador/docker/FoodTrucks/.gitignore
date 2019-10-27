@@ -1,6 +1,0 @@
-*.swp
-node_modules
-venv
-.DS_Store
-elasticsearch
-*.pem
