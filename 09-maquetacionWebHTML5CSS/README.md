@@ -1,10 +1,10 @@
-#Maquetación Web: HTML 5 y CSS
+# Maquetación Web: HTML 5 y CSS
 Curso de Maquetación Web: HTML 5 y CSS
 
-##La creación de la Interfaz
+## La creación de la Interfaz
 Convertite en un **maquetador profesional**, da tus primeros pasos en el **desarrollo Front-End**. Aprende los elementos fundamentales del mundo de la web en cuanto a construcción de sitios con **CSS**.
 
-##Contenido 📋
+## Contenido 📋
 _En este curso aprenderás a:_
 * Conocer las **propiedades de CSS** más importantes
 * Manejar **propiedades avanzadas** que te permitirán dejar elementos fijos en tu pantalla
@@ -13,7 +13,7 @@ _En este curso aprenderás a:_
 * Estar listo para iniciar tus pasos en tu primer trabajo con **Diseñador y Maquetador web**
 * Conocer los principales elementos que forman parte del **mundo web**.
 
-##Pre-requisitos 🔧
+## Pre-requisitos 🔧
 Se requieren conocimientos sólidos en el uso de **HTML** y saber:
 
 * Trabajar con elementos de **HTML** como **textos, enunciados, párrafos, imágenes y vínculos**.
@@ -22,11 +22,11 @@ Se requieren conocimientos sólidos en el uso de **HTML** y saber:
 * Trabajar con **CSS** y **ví­nculos**.
 * Subir tu propio **Proyecto Web a Internet**.
 
-##Público:
+## Público:
 Personas que quieran desempeñarse en el campo del **Diseño web y la Programación Web**, pudiendo maquetar **Sitios Web** de forma ágil y con gran calidad
 
-##Plan de Estudios
-####1. Introducción al mundo del CSS
+## Plan de Estudios
+#### 1. Introducción al mundo del CSS
 * Nuevos elementos semánticos de HTML5
 * Implementación de CSS en HTML
 * Trabajo externo, interno y en linea
