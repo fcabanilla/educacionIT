@@ -2,7 +2,7 @@
 SUB_FOLDERS=('laboratorios' 'manuales' 'videos' 'apuntes' 'ejemplos' 'ejercicios' 'videos' 'descargas')
 REGEX='^[0-9]+$'
 ERROR_VALUE=-1
-
+echo $HISTTIMEFORMAT
 while true; do
     COUNT_CLASSES=-1
     if test -z "$1"; then
