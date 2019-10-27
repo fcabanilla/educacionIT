@@ -21,22 +21,22 @@ Al final de este modulo seras capaz de:
 * Instalar y parametrizar diferentes valores de los gestores graficos.
 * Instalar y configurar un window manager.
 
-##Carpetas
+## Carpetas
 La **clase 5** tiene 4 carpetas basicas.
 * Laboratorios
 * Manuales
 * Vagrant
 * Videos
 
-####Laboratorios
+#### Laboratorios
 Se encuenrta un **PDF** con actividades, preguntas y tareas a desarrollar. Se aconseja que al finalizar el modulo, se realicen los laboratorios correspondientes.
 * *01-laboratorio.pdf*
 
-####Manuales
+#### Manuales
 Se encuentra un **PDF** con el manual a seguir para el alumno. Este por lo general cuenta con una tabla de contenidos. Donde se expecifica el peso de la clase, una descripcion, temas y ejemplos entre otros.
 * *manual_alumno.pdf*
 
-####Vagrant
+#### Vagrant
 Vagrant es una plataforma que nos permite controlar todos los aspectos de la configuracion de una maquina virtual, hasta incluso nos permite arrancar desde un punto de partida. Ademas, nos permite utulizar "RECETAS". Que son las RECETAS? Bueno como bien dice el nombre son "PASOS" a seguir de una forma secuencial. Por ejemplo cuando instalamos una distribucion cualquiera, quizas lo que queremos hacer es instalar algun programa, como vim. Entonces siempre que creamos una VM nueva, y queremos que se instale VIM, vamos a correr una recetita. Estas recetas pueden ser escritas en distintos lenguajes como, BASH, o en ANSIBLE por ejemplo.
 
 ###### Prerequisitos 📋
@@ -74,7 +74,7 @@ Para arrancar la maquina virtual, ejecutamos el siguiente comando (Siempre recor
 vagrant up
 ```
 
-####Videos
+#### Videos
 Se encuentran videos de **Youtube** con algunos ejemplos, y explicaciones de los tema ya vistos en la clase.
 * *[DevOps with Vagrant and Ansible - Part 1 of 3](https://youtu.be/GbK7GNwcNrI)*
 * *[DevOps with Vagrant and Ansible - Part 2 of 3](https://youtu.be/GGhxupejpLo)*

@@ -18,7 +18,7 @@ Al final de este modulo seras capaz de:
 * Utilizar herramientas de ntp*
 * Compilar un kernel y aplicaciones
 
-##Carpetas
+## Carpetas
 La **clase 4** tiene 5 carpetas basicas.
 * Apuntes
 * Descargas
@@ -26,25 +26,25 @@ La **clase 4** tiene 5 carpetas basicas.
 * Manuales
 * Videos
 
-####Apuntes
+#### Apuntes
 Se encuentra una coleccion de **PDF** con material extra de lectura.
 * *Resumen bash terminal.pdf*
 * *Resumen comandos linux.pdf*
 
-####Descargas
+#### Descargas
 Se encuentra un comprimido en formato **ZIP** con todo lo necesario para poder practicar la compilacion de codigo fuente.
 * *build-linux-master.zip*
 
-####Laboratorios
+#### Laboratorios
 Se encuenrta un **PDF** con actividades, preguntas y tareas a desarrollar. Se aconseja que al finalizar el modulo, se realicen los laboratorios correspondientes.
 * *01-laboratorio.pdf*
 
-####Manuales
+#### Manuales
 Se encuentra un **PDF** con el manual a seguir para el alumno. Este por lo general cuenta con una tabla de contenidos. Donde se expecifica el peso de la clase, una descripcion, temas y ejemplos entre otros.
 * *manual_alumno.pdf*
 
 
-####Videos
+#### Videos
 Se encuentran videos de **Youtube** con algunos ejemplos, y explicaciones de los tema ya vistos en la clase.
 * *[Como compartir una impresora por internet en ubuntu 10.04](https://youtu.be/vFDcwG2BG_Q)*
 * *[Como Configurar CUPS Servidor de Impresoras en CentOS 7](https://youtu.be/QohBtG9SPg0)*

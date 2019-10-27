@@ -34,7 +34,7 @@ Personas que quieran desempeñarse en el campo del **Diseño web y la Programaci
 * Selectores de elemento, clase y id
 * Selectores compuestos
 
-####2. Maquetando
+#### 2. Maquetando
 * Width y height
 * Min-width y min-height
 * Margen, padding , border
@@ -42,7 +42,7 @@ Personas que quieran desempeñarse en el campo del **Diseño web y la Programaci
 * Import y reseteo de estilos
 * Box-sizing
 
-####3. Iniciando en Flexbox y Pseudo clases
+#### 3. Iniciando en Flexbox y Pseudo clases
 * Flexbox trabajo simple para encolumnar
 * Pseudo clases
 * :hover, :link, :visited, :active, :focus
@@ -50,7 +50,7 @@ Personas que quieran desempeñarse en el campo del **Diseño web y la Programaci
 * Pseudo elementos
 * ::first-.line, ::first-letter
 
-####4. Contadores, menúes, sprites
+#### 4. Contadores, menúes, sprites
 * ::after
 * ::before
 * Contadores y profundización en ::after y ::before
@@ -58,7 +58,7 @@ Personas que quieran desempeñarse en el campo del **Diseño web y la Programaci
 * Overflow
 * Resize
 
-####5. Superposición de elementos, elementos fijos y menúes desplegables
+#### 5. Superposición de elementos, elementos fijos y menúes desplegables
 * Position absolute, relative, fixed, static
 * Usos y profundización
 * Menús simples desplegables con CSS
@@ -66,7 +66,7 @@ Personas que quieran desempeñarse en el campo del **Diseño web y la Programaci
 * Propiedades de las tablas
 * Integración de todos los conocimientos
 
-####6. Integrando conocimientos
+#### 6. Integrando conocimientos
 * Jerarquías de selectores
 * Regla media
 * Meta viewport que es para qué sirve
