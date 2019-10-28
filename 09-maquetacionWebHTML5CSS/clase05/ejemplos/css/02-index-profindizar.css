@@ -1,0 +1,16 @@
+body{
+    background: #333;
+    color: white;
+    font: 12px Arial;
+}
+div{
+    background: green;
+    height: 100px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100px;
+}
+.caja2{
+    background: red;
+}

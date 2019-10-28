@@ -1,0 +1,13 @@
+.relativo{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+/*
+    -Ocupa parte en el flow del documento por eso se dibujan asi
+    -Se mueven en referencia a si mismos
+    -
+*/

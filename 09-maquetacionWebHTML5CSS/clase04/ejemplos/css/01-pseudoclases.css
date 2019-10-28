@@ -1,0 +1,6 @@
+section p::before{
+    content: 'Principio';
+}
+section p::after{
+    content: 'Luego';
+}

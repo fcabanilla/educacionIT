@@ -1,0 +1,32 @@
+div{
+    background: yellow;
+    height: 50px;
+    left: 0;
+    top: 0;
+    width: 50px;
+}
+
+.absolutos{
+    position:absolute;
+}
+
+.segundo{
+    background-color: lightgreen;
+    left: 50px;
+}
+
+.tercero{
+    background-color: lightblue;
+    left: 100px;
+}
+
+.cuarto{
+    background-color: black;
+    left: 150px;
+}
+
+/* Relativos */
+
+.relativos{
+    position: relative;
+}

@@ -1,7 +1,7 @@
 # Maquetación Web: HTML 5 y CSS
 Curso de Maquetación Web: HTML 5 y CSS
 
-## Clase 1 - Introducción Al Mundo Del Css
+## Clase 1 - Introducción Al Mundo Del CSS
 
 ## Objetivos
 En esta clase veras:

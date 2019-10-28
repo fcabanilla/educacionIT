@@ -1,0 +1,9 @@
+
+section p::before{
+    content: url(../imagenes/star.png);
+}
+section p::after{
+    content: '.';
+    color: red;
+    font-size: 20px;
+}

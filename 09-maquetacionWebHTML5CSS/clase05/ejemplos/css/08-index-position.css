@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    font: Arial, Verdana, sans-serif 12px;
+}
+
+main{
+    width: 700px;
+    margin: 0 auto;
+    min-height: 300px;
+    padding: 10px;
+    border: 2px dashed gray;
+    position: relative;
+}
+
+.alerta{
+    background: black;
+    color: white;
+    display: none;
+    font-variant: small-caps;
+    height: 50px;
+    left: 35%;
+    line-height: 20px;
+    padding: 5px;
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    width: 200px;
+}
+
+.alerta p{
+    margin: 0;
+}

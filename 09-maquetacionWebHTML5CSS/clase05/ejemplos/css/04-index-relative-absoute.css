@@ -1,0 +1,19 @@
+div{
+    width: 500px;
+    height: 200px;
+    border: 1px solid red;
+}
+.relativo{
+    top: 30%;
+    left: 25%;
+    position: relative;
+    /* position: absolute; */
+}/*Relativo a si mismo*/
+/* Relativo = referencia */
+
+.absoluto{
+    width: 100px;
+    left: 50%;
+    position: absolute;
+}
+/* Absoluto = elemento superpuesto */

@@ -1,0 +1,29 @@
+div{
+    background: yellow;
+    height: 50px;
+    left: 0;
+    top: 0;
+    width: 50px;
+}
+
+.absolutos{
+    position:absolute;
+}
+
+.segundo{
+    background-color: lightgreen;
+    left: 50px;
+    top: 50px;
+}
+
+.tercero{
+    background-color: lightblue;
+    left: 100px;
+    top: 100px;
+}
+
+.cuarto{
+    background-color: black;
+    top: 150px;
+    left: 150px;
+}

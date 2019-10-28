@@ -1,0 +1,14 @@
+div{
+    background-color: lightblue;
+    height: auto;
+    max-width: 700px;
+    min-width: 400px;
+    min-height: 300px;
+    max-height: 500px;
+    width: 50%;
+    /* margin-top: 10px; */
+    /* margin-left: 10px; */
+    /*margin: 10px; /*Para los 4 valores*/
+    /*margin: 10px 100px; /*Para arriba, derecha e izquierda*/
+    margin: 10px 100px 200px; /*Para arriba, derecha, abajo, izquierda (horario)*/
+}
