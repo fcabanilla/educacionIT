@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https:fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body{
+    font: 12px 'Source Sans Pro', sans-serif;;
+}
+
+#encabezado{
+    width: 100%;
+    height: 200px;
+    background: #666 url('../imagenes/fondo.png');
+    padding: 10px;
+}
+
+#encabezado div{
+    float: left;
+    width: 80%;
+}
+
+#redesSociales{
+    float: right;
+    width: 40px;
+}
+
+#redesSociales img{
+    width: 10px;
+    height: 10px;
+}
+
+#redesSociales a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https:fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body{
+    font: 12px 'Source Sans Pro', sans-serif;
+}
+
+#encabezado{
+    width: 100%;
+    height: 200px;
+    background: #666 url(../imagenes/fondo.png);
+    padding: 10px;
+}
+#encabezado div{
+    float: left;
+    width: 80%;
+}
+
+#redesSociales{
+    float: right;
+    width: 40px;
+}
+
+#redesSociales img{
+    width: 10px;
+    height: 10px;
+}
+#redesSociales a{
+    text-decoration: none;
+} */
