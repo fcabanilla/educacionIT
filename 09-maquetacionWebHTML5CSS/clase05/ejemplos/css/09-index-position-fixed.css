@@ -1,0 +1,12 @@
+body{
+    height: 2000px;
+}
+
+div{
+    background: red;
+    height: 50px;
+    left: 95%;
+    position: fixed;
+    top: 100px;
+    width: 50px;
+}

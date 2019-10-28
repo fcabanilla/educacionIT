@@ -1,0 +1,17 @@
+body{
+    height: 2000px;
+}
+
+div{
+    /* background-color: #333; */
+    /* background-image: url(https://cdn0.iconfinder.com/data/icons/user-collection-4/512/directory-32.png); */
+    /* background-repeat: no-repeat; */
+    /* background-size: 10px; */
+    background: url(https://cdn0.iconfinder.com/data/icons/user-collection-4/512/directory-32.png) no-repeat 10px;
+    cursor: pointer;
+    height: 50px;
+    left: 95%;
+    position: fixed;
+    top: 100px;
+    width: 50px;
+}
