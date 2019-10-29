@@ -1,11 +1,13 @@
 body{
     height: 2000px;
+    background: #333;
 }
 
 div{
     background: red;
     height: 50px;
-    left: 95%;
+    /* left: 95%; */
+    right: 0.5%;
     position: fixed;
     top: 100px;
     width: 50px;

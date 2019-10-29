@@ -1,3 +1,6 @@
+body{
+    background: #333;
+}
 div{
     background: black;
     color: white;
@@ -11,16 +14,16 @@ div{
     width: 50px;
 }
 
-#tres{
-    /* left: 20px; */
-    z-index: 2;
-}
 #uno{
     background: cornflowerblue;
-    /* left: 40px; */
+    left: 40px;
     z-index: 3;
 }
 #dos{
     background: limegreen;
     z-index: 1;
+}
+#tres{
+    left: 20px;
+    z-index: 2;
 }

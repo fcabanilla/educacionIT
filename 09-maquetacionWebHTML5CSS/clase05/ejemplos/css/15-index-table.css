@@ -5,6 +5,7 @@
 body{
     font: small-caps 12px Arial;
     margin: 0;
+    background: #333;
 }
 nav{
     width: 100%;

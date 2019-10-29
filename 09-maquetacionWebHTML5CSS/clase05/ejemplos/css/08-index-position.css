@@ -1,6 +1,8 @@
 body{
     margin: 0;
     font: Arial, Verdana, sans-serif 12px;
+    background: #333;
+    color: white;
 }
 
 main{
@@ -13,7 +15,7 @@ main{
 }
 
 .alerta{
-    background: black;
+    background: hsla(0, 0%, 0%, 0.90);
     color: white;
     display: none;
     font-variant: small-caps;

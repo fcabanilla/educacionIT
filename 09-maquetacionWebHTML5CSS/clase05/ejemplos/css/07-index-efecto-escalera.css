@@ -1,11 +1,18 @@
-div{
+body{
+    background: #333;
+    color: white;
+    font: 12px Arial;
+    height: 900px;
+
+}
+ div{
     background: yellow;
     height: 50px;
-    left: 0;
-    top: 0;
+    /* left: 0; */
+    /* top: 0; */
     width: 50px;
 }
-
+/*
 .absolutos{
     position:absolute;
 }
@@ -23,10 +30,23 @@ div{
 .cuarto{
     background-color: black;
     left: 150px;
-}
+} */
 
 /* Relativos */
 
-.relativos{
+/* .relativos{
     position: relative;
+} */
+
+div{
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 1px dotted red;
+}
+
+.test{
+    position: relative;
+    top: 50px;
+    left: 50px;
 }

@@ -1,5 +1,6 @@
 body{
     font: small-caps 12px Arial;
+    background: #333;
 }
 nav{
     width: 100%;
@@ -45,7 +46,7 @@ a:hover{
 .desplegable{
     position: relative;
     height: 80px;
-    /* border: 1px dashed gray; */
+    border: 1px dashed gray;
     top: 25px;
 }
 
@@ -56,6 +57,7 @@ a:hover{
     flex-direction: column;
     left: 2px;
     top: 45px;
+    background: red;
 }
 
 .desplegable ul li{

@@ -1,10 +1,18 @@
+body{
+    background: #333;
+    color: white;
+    font: 12px Arial;
+    height: 900px;
+    /* margin: 0; */
+    /* padding: 0; */
+}
 div{
     width: 500px;
     height: 200px;
     border: 1px solid red;
 }
 .relativo{
-    top: 30%;
+    top: 10%;
     left: 25%;
     position: relative;
     /* position: absolute; */
@@ -13,7 +21,11 @@ div{
 
 .absoluto{
     width: 100px;
+    height: 100px;
+    background: lime;
     left: 50%;
+    top: 15%;
+    /* left: 0; */
     position: absolute;
 }
 /* Absoluto = elemento superpuesto */

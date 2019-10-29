@@ -1,16 +1,18 @@
 body{
     height: 2000px;
+    background: #333;
 }
 
 div{
-    /* background-color: #333; */
     /* background-image: url(https://cdn0.iconfinder.com/data/icons/user-collection-4/512/directory-32.png); */
     /* background-repeat: no-repeat; */
     /* background-size: 10px; */
     background: url(https://cdn0.iconfinder.com/data/icons/user-collection-4/512/directory-32.png) no-repeat 10px;
+    /* background-color: #c17676; */
     cursor: pointer;
     height: 50px;
-    left: 95%;
+    /* left: 95%; */
+    right: 0.5%;
     position: fixed;
     top: 100px;
     width: 50px;

@@ -1,10 +1,21 @@
+body{
+    background: #333;
+    color: white;
+    font: 12px Arial;
+}
 .relativo{
     width: 200px;
     height: 200px;
     border: 1px solid red;
+    background: green;
     position: relative;
-    top: 0;
+    /* top: 20px; */
     left: 0;
+}
+.rojo{
+    background: red;
+    position: relative;
+    top: 50px;
 }
 /*
     -Ocupa parte en el flow del documento por eso se dibujan asi
