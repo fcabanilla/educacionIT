@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    color: #F00;
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: cornflowerblue;
+}
+body{
+    color: #333;
+}
+h1{
+    background: #000;
+    color: white;
+}
+h2, h1{
+    background: #000;
+    color: lightgreen;
+    font-family: Courier;
+}
+main{
+    color: #666;
+    display: flex;
+    padding: 10px;
+    width: 900px;
+}
+p{
+    color: #A0A9A9;
+}

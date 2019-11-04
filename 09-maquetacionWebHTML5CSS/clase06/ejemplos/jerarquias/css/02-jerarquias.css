@@ -1,0 +1,23 @@
+*{
+    color: #F00;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: cornflowerblue;
+}
+body{
+    color: #333;
+}
+h1{
+    color: white;
+    background: #000;
+}
+main{
+    color: #666;
+    padding: 10px;
+}
+p{
+    color: #A0A9A9;
+}
