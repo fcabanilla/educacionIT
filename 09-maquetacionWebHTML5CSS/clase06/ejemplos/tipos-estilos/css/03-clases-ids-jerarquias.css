@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Spectral+SC&display=swap');
+
+*{
+    box-sizing: border-box;
+    color: #F00;
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: cornflowerblue;
+}
+body{
+    color: #333;
+    font: 100% 'Spectral SC', serif;
+}
+h2, h1{
+    color: lightgreen;
+    font-family: 'Oswald', sans-serif;
+    background: #333;
+}
+h1{
+    color: white;
+    background: url(../img/fondo.png);
+    /* background-image: url(../img/fondo.png); */
+}
+main{
+    color: #666;
+    display: flex;
+    padding: 20px;
+    width: 900px;
+    margin: 0 auto;
+    border-left: 2px double #999;
+    border: 4px solid red;
+}
+section p{
+    background-color: coral;
+    color: black;
+}
+
+section:last-child p{
+    background-color: lightblue;
+    color: #666;
+}
+main section:last-child p{
+    background-color: black;
+    color: orange;
+}
+p{
+    color: #A0A9A9;
+}
+.miEstilo{
+    color: #333;
+    background-color: blue;
+}
+.miParrafo{
+    color: cornflowerblue;
+    background-color: white;
+}
