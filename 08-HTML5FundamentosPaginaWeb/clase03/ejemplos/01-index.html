@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Formularios</title>
+        <style media="screen">
+            body{
+                background-color: #333;
+                color: white;
+                font-size: 24px;
+            }
+        </style>
+    </head>
+
+    <body>
+
+
+            <!-- federico.cabanilla@gmail.com -->
+            <!-- federico.cabanilla+jajajaja@gmail.com -->
+        <form>
+            <label>
+                Nombre:
+                <input name="name" type="text" size="40" maxlength="10" placeholder="Nombre completo">
+            </label>
+            <br><br>
+            <label>
+                A que no me cambias: <br>
+                <input name="nombre" readonly type="text" size="40" maxlength="10" placeholder="Nombre completo" value="Jajajaj">
+            </label>
+            <br><br>
+            <label>
+                Desactivada: <br>
+                <input name="nombre" disabled type="text" size="40" maxlength="10" placeholder="Nombre completo" value="Jajajaj">
+            </label>
+            <br><br>
+            <label>
+                Apellido:
+                <input type="text" name="apellido" required>
+            </label>
+            <br><br>
+            <label>
+                Correo electronico:
+                <input type="email" name="email" required>
+            </label>
+            <br><br>
+            <label>
+                Edad:
+                <input type="number" name="edad" max="80" min="14">
+            </label>
+            <br><br>
+            <label>
+                Fecha de nacimiento:
+                <input type="date" name="fecha-nacimiento">
+            </label>
+            <br><br>
+            <label>
+                Elegi un mes:
+                <input type="month" name="mes">
+            </label>
+            <br><br>
+            <label>
+                Elegi una semana:
+                <input type="week" name="semana">
+            </label>
+            <br><br>
+            <label>
+                Elegi un momento:
+                <input type="time" name="datetime">
+            </label>
+            <br><br>
+            <hr>
+            <label>
+                Elegi un momento:
+                <input type="datetime-local" name="datetime" value="">
+            </label>
+            <br><br>
+            <label>
+                Elegi un color:
+                <input type="color" name="color">
+            </label>
+            <br><br>
+            <label> Contraseña:
+                <input type="password" name="contraseña" placeholder="password" >
+            </label>
+            <br><br>
+            <label>
+                Comentario: <br>
+                <textarea name="name" rows="4" cols="40" placeholder="Comentarios"></textarea>
+            </label>
+            <br><br>
+            <label>
+                Puntuacion:
+                <input type="radio" name="genero" value="5" checked> 5
+                <input type="radio" name="genero" value="4" checked> 4
+                <input type="radio" name="genero" value="3"> 3
+                <input type="radio" name="genero" value="2"> 2
+                <input type="radio" name="genero" value="1"> 1
+            </label>
+            <br><br>
+            <label>
+                <input type="search" name="" value="">
+            </label>
+        </form>
+
+    </body>
+</html>

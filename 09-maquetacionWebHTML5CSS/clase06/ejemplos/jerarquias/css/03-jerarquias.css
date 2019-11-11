@@ -9,15 +9,16 @@ a{
 }
 body{
     color: #333;
-}
-h1{
-    background: #000;
-    color: white;
+    background: #333;
 }
 h2, h1{
     background: #000;
     color: lightgreen;
     font-family: Courier;
+}
+h1{
+    background: #000;
+    color: white;
 }
 main{
     color: #666;

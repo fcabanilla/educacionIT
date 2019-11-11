@@ -25,7 +25,7 @@ h1{
 }
 main{
     color: #666;
-    display: flex;
+    /* display: flex; */
     padding: 20px;
     width: 900px;
     margin: 0 auto;
