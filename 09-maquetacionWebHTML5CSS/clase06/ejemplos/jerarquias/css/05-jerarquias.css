@@ -15,6 +15,7 @@ p{
 body{
     color: #333;
     font: 100% 'Spectral SC', serif;
+    background: #333;
 }
 h2, h1{
     color: lightgreen;
@@ -22,6 +23,10 @@ h2, h1{
 }
 h1{
     color: white;
+}
+main section:last-child p{
+    background-color: black;
+    color: orange;
 }
 main{
     color: #666;
@@ -38,7 +43,7 @@ section:last-child p{
     background-color: lightblue;
     color: #666;
 }
-main section:last-child p{
-    background-color: black;
-    color: orange;
+section:first-child p{
+    background-color: rgb(21, 77, 122);
+    color: #0f0e0e;
 }

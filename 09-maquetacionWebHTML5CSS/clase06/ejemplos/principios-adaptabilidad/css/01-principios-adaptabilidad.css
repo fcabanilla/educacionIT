@@ -53,6 +53,16 @@ p{
 }
 .miParrafo{
     color: cornflowerblue !important;
-    /* background-color: white !important; */
-    background-color: white;
+    background-color: white !important;
+}
+/* @@media (max-width:768px) {
+    body{
+        background: #F00;
+    }
+} */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+    background: #F00;
+  }
 }

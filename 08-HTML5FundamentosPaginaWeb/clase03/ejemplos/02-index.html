@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style media="screen">
+        body{
+            background-color: #333;
+            color: white;
+            font-size: 24px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Mas Inputs</title>
+</head>
+<body>
+    <h1>DATOS PERSONALES</h1>
+    <label>Nombre <br>
+        <input type="text" name="name">
+    </label>
+    <br><br>
+    <label>Apellido <br>
+        <input type="text" name="name">
+    </label>
+    <br><br>
+    <label>Fecha de nacimiento <br>
+        <input type="date" name="born-date">
+    </label>
+    <br><br>
+    <label>Sexo <br>
+        <input type="radio" name="sex"> HOMBRE
+        <input type="radio" name="sex"> MUJER
+    </label>
+    <br><br>
+    <label>Contraseña <br>
+        <input type="password" name="password" placeholder="Contraseña">
+    </label>
+    <br><br>
+    <label>Rango <br>
+        <input type="range" name="rango" max="100" min="0" step="10">
+    </label>
+    <br><br>
+    <label>Archivo <br>
+        <input type="file" name="file" multiple>
+    </label>
+    <br><br>
+    <select  name="multiples-opciones">
+        <option value="null">...</option>
+        <option value="1">Milanesas</option>
+        <option value="2">Pollo al horno</option>
+        <option value="3">Ensalada????</option>
+    </select>
+    <br><br>
+    <select multiple size="6" name="multiples-opciones">
+        <option value="null">...</option>
+        <option value="1">Milanesas</option>
+        <option value="2">Pollo al horno</option>
+        <option value="3">Ensalada????</option>
+        <option value="2">Pollo al horno</option>
+        <option value="3">Ensalada????</option>
+        <option value="2">Pollo al horno</option>
+        <option value="3">Ensalada????</option>
+    </select>
+    <br><br>
+    <select multiple size="6" name="multiples-opciones">
+        <option value="null">...</option>
+        <optgroup label="Cosas ricas">
+        <option value="1">Milanesas</option>
+        <option value="2">Pollo al horno</option>
+        <optgroup label="Cosas sanas pero no tan ricas">
+        <option value="3">Ensalada????</option>
+    </select>
+    <br><br>
+    <select name="multiples-opciones">
+        <option value="null">...</option>
+        <optgroup label="Cosas ricas">
+        <option value="1">Milanesas</option>
+        <option value="2">Pollo al horno</option>
+        <optgroup label="Cosas sanas pero no tan ricas">
+        <option value="3">Ensalada????</option>
+    </select>
+
+
+
+</body>
+</html>
