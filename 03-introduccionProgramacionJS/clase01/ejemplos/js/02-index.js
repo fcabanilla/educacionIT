@@ -1,1 +1,1 @@
-alert( 'Hello, world!' );
+qlert( 'Hello, world!' );
