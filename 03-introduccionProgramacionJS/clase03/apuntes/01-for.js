@@ -2,7 +2,7 @@
 let veces = 5;
 let cantidad = 0;
 
-for (var i = 0; i < veces; i++) {
+for (let i = 0; i < veces; i++) {
     console.log(`mensaje ${i}`)
 }
 

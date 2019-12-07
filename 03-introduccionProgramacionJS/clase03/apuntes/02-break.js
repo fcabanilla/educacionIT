@@ -1,5 +1,31 @@
 'use strict'
 const texto = "Había una vez un barco chiquito"
+let palabras = texto.split(" ");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 let letras = texto.split("");
 let resultado = "";
 console.log(`Texto: ${texto}`);

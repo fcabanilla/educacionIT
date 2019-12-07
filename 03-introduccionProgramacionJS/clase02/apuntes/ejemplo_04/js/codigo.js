@@ -1,5 +1,44 @@
-var fecha = new Date()
-var dia = fecha.getDay()
+let fecha = new Date()
+let dia = fecha.getDay()
+
+alert('fecha' + fecha);
+alert('dia' + dia);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 switch (dia) {
     case 0:
         mensaje = "Qué lindo es domingo";

@@ -1,0 +1,39 @@
+/inlineplus
+"******* LINKS CLASE 02 *******" = "toast:ES UN TITULO NOMAS",
+"******* GIT GITHUB *******" = "toast:ES UN TITULO NOMAS",
+"GitHub Oficial del curso" = "bh:https://github.com/fcabanilla/educacionIT/tree/master/02-introduccionBBDDSQL",
+"Introducción a Git y Github" = "bh:https://www.udemy.com/course/introduccion-a-git-y-github/",
+"*** SQL VISTOS EN CLASE ***" = "toast:ES UN TITULO NOMAS",
+"SELECT" = "bh:https://www.w3schools.com/sql/sql_select.asp"
+"DISTINCT" = "bh:https://www.w3schools.com/sql/sql_distinct.asp"
+"LIMIT" = "bh:https://www.w3schools.com/sql/sql_top.asp"
+"Aliases" = "bh:https://www.w3schools.com/sql/sql_alias.asp",
+"WHERE" = "bh:https://www.w3schools.com/sql/sql_where.asp"
+"LIKE" = "bh:https://www.w3schools.com/sql/sql_like.asp"
+"IN" = "bh:https://www.w3schools.com/sql/sql_in.asp"
+"COMODINES" = "bh:https://www.w3schools.com/sql/sql_wildcards.asp",
+"AND, OR, NOT" = "bh:https://www.w3schools.com/sql/sql_and_or.asp"
+"BETWEEN" = "bh:https://www.w3schools.com/sql/sql_between.asp",
+"NULL Values" = "bh:https://www.w3schools.com/sql/sql_null_values.asp"
+"Comments" = "bh:https://www.w3schools.com/sql/sql_comments.asp"
+"ORDER BY" = "bh:https://www.w3schools.com/sql/sql_orderby.asp",
+"******* SQL EXTRAS *******" = "toast:ES UN TITULO NOMAS",,
+"Examples" = "bh:https://www.w3schools.com/sql/sql_examples.asp"
+"Quiz" = "bh:https://www.w3schools.com/sql/sql_quiz.asp"
+"Exercises" = "bh:https://www.w3schools.com/sql/sql_exercises.asp",
+"like",
+"Compártelo" = "share",
+
+
+Buenos días gente.
+Acá les envió el material de la Clase 02
+Algunas aclaraciones...
+* En el link de GitHub esta el código de las clases sí? Pueden descargarlo, copiar y pegar o simplemente mirarlo. Es complementario a lo que hay en el Alumni.
+* Entren al Alumni... Entren al alumni y hagan aunque sea algún laboratorio así se sacan bien las dudas.
+* Vuelvo a hacer incapie en lo de Alumni. Lean, vean los vídeos así la clase que viene sacamos las dudas y preguntas y seguimos con temas nuevos.
+* En los Links que les envió están divididos en 3 partes.
+    - La primera es Github. Ya saben, codigo de la clase, y el curso por si les interesa.
+    - Links de lo visto en clase.
+    - Links de cosas extras en este caso ejercicios, ejemplos y preguntas.
+———————————————————————————————
+PD: Cuando terminen de hacer los laboratorios, envíenmelo por acá así lo puedo ver. NADIE ME ENVIÓ NADA!!!!

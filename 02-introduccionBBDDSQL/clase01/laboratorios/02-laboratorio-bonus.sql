@@ -1,32 +1,32 @@
 -- LABORATORIO BONUS
 
--- 1- Elimine la tabla "agenda", si existe:
-drop table if exists agenda;
+-- 1- Elimine la tabla "Agenda", si existe:
+DROP TABLE IF EXISTS Agenda;
 
--- 2- Cree una tabla llamada agenda. Debe tener los siguientes detalle:
+-- 2- Cree una tabla llamada Agenda. Debe tener los siguientes detalle:
 
-create table agenda
+CREATE TABLE Agenda
 (
-	Contacto	integer
-	,Nombre 	varchar(20)
-	,Domicilio 	varchar(30)
-	,Telefono 	varchar(9)
-    ,primary key (Contacto)
+	Contacto	INTEGER
+	,Nombre 	VARCHAR(20)
+	,Domicilio 	VARCHAR(30)
+	,Telefono 	VARCHAR(9)
+    ,PRIMARY KEY (Contacto)
 );
 
--- 3- Visualice las tablas existentes en la base de datos para verificar la creación de agenda.
-show tables;
+-- 3- Visualice las tablas existentes en la base de datos para verificar la creación de Agenda.
+SHOW TABLES;
 
--- 4- Visualice la estructura de campos de la tabla "agenda".
-describe agenda;
+-- 4- Visualice la estructura de campos de la tabla "Agenda".
+DESCRIBE Agenda;
 
 -- 5- Ingrese los 3 registros en la tabla Agenda:
-insert into agenda (Contacto, Nombre, Domicilio, Telefono) values (1, 'Alberto Mores', 'Colon 123'     , '4234567');
-insert into agenda (Contacto, Nombre, Domicilio, Telefono) values (2, 'Juan Torres'  , 'Avellaneda 135', '4458787');
-insert into agenda (Contacto, Nombre, Domicilio, Telefono) values (3, 'Carla Paez'   , 'Lima 2335'     , '6658747');
+INSERT INTO Agenda (Contacto, Nombre, Domicilio, Telefono) VALUES (1, 'Alberto Mores', 'Colon 123'     , '4234567');
+INSERT INTO Agenda (Contacto, Nombre, Domicilio, Telefono) VALUES (2, 'Juan Torres'  , 'Avellaneda 135', '4458787');
+INSERT INTO Agenda (Contacto, Nombre, Domicilio, Telefono) VALUES (3, 'Carla Paez'   , 'Lima 2335'     , '6658747');
 
 -- 6- Seleccione y muestre todos los registros de la tabla:
-select * from agenda;
+SELECT * FROM Agenda;
 
--- 7- Elimine la tabla "agenda", si existe:
-drop table if exists agenda;
+-- 7- Elimine la tabla "Agenda", si existe:
+DROP TABLE IF EXISTS Agenda;

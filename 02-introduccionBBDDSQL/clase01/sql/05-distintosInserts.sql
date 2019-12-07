@@ -1,27 +1,16 @@
-CREATE DATABASE IF NOT EXISTS clase_01;
+DROP TABLE IF EXISTS ejemplo_pentaho.usuarios;
 
-DROP TABLE IF EXISTS clase_01.05_different_inserts;
-
-CREATE TABLE clase_01.05_different_inserts(
+CREATE TABLE ejemplo_pentaho.usuarios(
     id INT UNSIGNED NOT NULL AUTO_INCREMENT,
     nombre VARCHAR(60) NOT NULL,
     apellido VARCHAR(60) NOT NULL,
-    dni VARCHAR(9) NOT NULL,
-    edad INT UNSIGNED NOT NULL,
+    dni INT NOT NULL,
+    edad int not null,
     UNIQUE KEY(dni),
     PRIMARY KEY(id)
 );
 
-INSERT INTO clase_01.05_different_inserts (nombre, apellido, edad, dni) VALUES ('Sofia','Granatelli','22', 22654789);
-
-INSERT INTO clase_01.05_different_inserts
-SET nombre =	'Federico',
-    apellido =	'Cabanilla',
-    edad =		 25,
-    dni =		 37195387;
-
-
-INSERT INTO clase_01.05_different_inserts VALUES(0, 'Cristhian',  'Barrios',    35662314,   26),
+INSERT INTO ejemplo_pentaho.usuarios VALUES(0, 'Cristhian',  'Barrios',    35662314,   26),
                                                 (0, 'Mauricio',   'Dirrheimer', 8314652,    78),
                                                 (0, 'Dario',      'Perez',      74332754,   25),
                                                 (0, 'Juanita',    'Racca',      6232754,    32),

@@ -1,0 +1,39 @@
+/inlineplus
+"******* GIT GITHUB *******" = "toast:ES UN TITULO NOMAS",
+"GitHub Oficial del curso" = "bh:https://github.com/fcabanilla/educacionIT/tree/master/02-introduccionBBDDSQL",
+"Introducción a Git y Github" = "bh:https://www.udemy.com/course/introduccion-a-git-y-github/",
+"*** COMO INSTALAR MYSQL ***" = "toast:ES UN TITULO NOMAS",
+"Windows con Xampp" = "bh:https://www.ecodeup.com/aprende-a-instalar-mysql-y-mysql-workbench-en-windows-10/"
+"Linux (Ubuntu 18.04)" = "bh:https://phoenixnap.com/kb/how-to-install-mysql-on-ubuntu-18-04",
+"*** SQL VISTOS EN CLASE ***" = "toast:ES UN TITULO NOMAS",
+"CREATE DATABASE Statement" = "bh:https://www.w3schools.com/sql/sql_create_db.asp"
+"DROP DATABASE Statement" = "bh:https://www.w3schools.com/sql/sql_drop_db.asp",
+"CREATE TABLE Statement" = "bh:https://www.w3schools.com/sql/sql_create_table.asp"
+"DROP TABLE Statement" = "bh:https://www.w3schools.com/sql/sql_drop_table.asp",
+"NOT NULL" = "bh:https://www.w3schools.com/sql/sql_notnull.asp"
+"UNIQUE" = "bh:https://www.w3schools.com/sql/sql_unique.asp",
+"PRIMARY KEY" = "bh:https://www.w3schools.com/sql/sql_primarykey.asp"
+"DEFAULT" = "bh:https://www.w3schools.com/sql/sql_default.asp",
+"AUTO INCREMENT" = "bh:https://www.w3schools.com/sql/sql_autoincrement.asp"
+"Data Types for MySQL" = "bh:https://www.w3schools.com/sql/sql_datatypes.asp",
+"******* SQL EXTRAS *******" = "toast:ES UN TITULO NOMAS",
+"SQL BACKUP DATABASE for SQL Server" = "bh:https://www.w3schools.com/sql/sql_backup_db.asp",
+"SQL ALTER TABLE Statement" = "bh:https://www.w3schools.com/sql/sql_alter.asp",
+"SQL Constraints (Restricciones)" = "bh:https://www.w3schools.com/sql/sql_constraints.asp",
+"like",
+"Compártelo" = "share",
+
+
+Buenos dias gente.
+Aca les envio el materiar de la Clase 01
+Algunas aclaraciones...
+* En el link de GitHub esta el codigo de las clases si? Pueden descargarlo, copiar y pegar o simplemente mirarlo. Es complementario a lo que hay en el Alumni.
+* Entren al Alumni... Desde el jueves ya podian entrar. Si hay alguien que tenga un problema aviseme. Intenten hacer los laboratorios.
+* Vuelvo a hacer incapie en lo de alumni. Lean, vean los videos asi la clase que viene sacamos las dudas y preguntas y seguimos con temas nuevos.
+* En los Links que les envio estan divididos en 3 partes.
+  - La primera es Github. Es la plataforma que uso para subir el código. No hace falta que lo sepan usar. Con el link que les comparti van a poder ver el código. El segundo link es un curso gratuito de GitHub por si les interesa aprender. Esta en Udemy. Si no funciona el link me avisan.
+  - Links de todo lo visto en clase, partes de codigo etc.
+  - Links de cosas extras o algunos articulos de interes general.
+————————————————————————————————————
+PD: Cuando terminen de hacer los laboratorios, envienmelo por aca asi lo puedo ver. Si es mas de un archivo intenten enviarme un comprimido con nombre y apellido asi se quien lo envia.
+Que tengan buena semana!

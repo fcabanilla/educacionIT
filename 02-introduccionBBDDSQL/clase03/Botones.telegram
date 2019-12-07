@@ -1,0 +1,59 @@
+/inlineplus
+"******* LINKS CLASE 03 *******" = "toast:ES UN TITULO NOMAS",
+"******* GIT GITHUB *******" = "toast:ES UN TITULO NOMAS",
+"GitHub Oficial del curso" = "bh:https://github.com/fcabanilla/educacionIT/tree/master/02-introduccionBBDDSQL",
+"Introducción a Git y Github" = "bh:https://www.udemy.com/course/introduccion-a-git-y-github/",
+"*** SQL VISTOS EN CLASE FUNCIONES***" = "toast:ES UN TITULO NOMAS",
+"CASE Function" = "bh:https://www.w3schools.com/sql/func_mysql_case.asp",
+"CONCAT()" = "bh:https://www.w3schools.com/sql/func_mysql_concat.asp"
+"LENGTH()" = "bh:https://www.w3schools.com/sql/func_mysql_length.asp"
+"CURRENT_DATE()" = "bh:https://www.w3schools.com/sql/func_mysql_current_date.asp",
+"LEFT()" = "bh:https://www.w3schools.com/sql/func_mysql_left.asp"
+"MID()" = "bh:https://www.w3schools.com/sql/func_mysql_mid.asp"
+"RIGHT()" = "bh:https://www.w3schools.com/sql/func_mysql_right.asp",
+"LCASE()" = "bh:https://www.w3schools.com/sql/func_mysql_lcase.asp"
+"LOWER()" = "bh:https://www.w3schools.com/sql/func_mysql_lower.asp",
+"UCASE()" = "bh:https://www.w3schools.com/sql/func_mysql_ucase.asp"
+"UPPER()" = "bh:https://www.w3schools.com/sql/func_mysql_upper.asp",
+"*** SQL VISTOS EN CLASE AGREGACION***" = "toast:ES UN TITULO NOMAS",
+"AVG()" = "bh:https://www.w3schools.com/sql/func_mysql_avg.asp"
+"COUNT()" = "bh:https://www.w3schools.com/sql/func_mysql_count.asp"
+"SUM()" = "bh:https://www.w3schools.com/sql/func_mysql_sum.asp",
+"MAX()" = "bh:https://www.w3schools.com/sql/func_mysql_max.asp"
+"MIN()" = "bh:https://www.w3schools.com/sql/func_mysql_min.asp",
+"RAND()" = "bh:https://www.w3schools.com/sql/func_mysql_rand.asp"
+"ROUND()" = "bh:https://www.w3schools.com/sql/func_mysql_round.asp"
+"TRUNCATE()" = "bh:https://www.w3schools.com/sql/func_mysql_truncate.asp",
+"******* SQL STATAMENT & CLAUSE *******" = "toast:ES UN TITULO NOMAS",
+"GROUP BY" = "bh:https://www.w3schools.com/sql/sql_groupby.asp"
+"HAVING" = "bh:https://www.w3schools.com/sql/sql_having.asp"
+"" = "bh:"
+"******* SQL EXTRAS *******" = "toast:ES UN TITULO NOMAS",
+"MIN() and MAX() Functions" = "bh:https://www.w3schools.com/sql/sql_min_max.asp",
+"COUNT(), AVG() and SUM()" = "bh:https://www.w3schools.com/sql/sql_count_avg_sum.asp",
+"ABS()" = "bh:https://www.w3schools.com/sql/func_mysql_abs.asp"
+"POSITION()" = "bh:https://www.w3schools.com/sql/func_mysql_position.asp"
+"REPLACE()" = "bh:https://www.w3schools.com/sql/func_mysql_replace.asp",
+"MySQL Functions" = "bh:https://www.w3schools.com/sql/sql_ref_mysql.asp",
+"MySQL Date and Time functions" = "bh:https://www.w3resource.com/mysql/date-and-time-functions/date-and-time-functions.php",
+"MySQL aggregate functions and grouping" = "bh:https://www.w3resource.com/mysql/aggregate-functions-and-grouping/aggregate-functions-and-grouping-in-mysql.php",
+"Generador de números pseudoaleatorios" = "bh:https://es.wikipedia.org/wiki/Generador_de_n%C3%BAmeros_pseudoaleatorios",
+"like",
+"Compártelo" = "share",
+
+
+Buenos días gente, acá yo de nuevo.
+Acá les envió el material de la Clase 03
+Algunas aclaraciones...
+* En el link de GitHub esta el código de las clases sí? Pueden descargarlo, copiar y pegar o simplemente mirarlo. Es complementario a lo que hay en el Alumni.
+* Entren al Alumni... La semana siguiente es nuestra ultima clase. Entren al alumni y hagan aunque sea algún laboratorio así se sacan bien las dudas.
+* Vuelvo a hacer incapie en lo de Alumni. Lean, vean los vídeos así la clase que viene sacamos las dudas y preguntas y seguimos con temas nuevos.
+* En los Links que les envió están divididos en 3 partes.
+    - La primera es Github. Ya saben, codigo de la clase, y el curso por si les interesa.
+    - Links de lo visto en clase, funciones varias.
+    - Links de lo visto en clase, funciones de agregación.
+    - Links de STATAMENT y CLAUSE (El GROUP BY y HAVING respectivamente).
+    - Links de cosas extras o algunos artículos de interés general.
+———————————————————————————————
+PD: Cuando terminen de hacer los laboratorios, envíenmelo por acá así lo puedo ver. NADIE ME ENVIÓ NADA!!!!
+Que tengan buena semana y perdón por ser tan pesadito, pasa que ya llegamos al fin del curso practicamente!!!
