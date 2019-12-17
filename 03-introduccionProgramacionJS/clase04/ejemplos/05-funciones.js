@@ -1,4 +1,4 @@
-let userName = 'Juan';
+var userName = 'Juan';
 
 function showMessage() {
   userName = "Pedro"; // (1) cambió la variable externa

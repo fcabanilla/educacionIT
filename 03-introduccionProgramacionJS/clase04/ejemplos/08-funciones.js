@@ -1,8 +1,8 @@
 function showMessage(from, text) {
 
   from = '*' + from + '*'; // hace que "from" se vea mas lindo
-
-  alert( from + ': ' + text );
+  let message = from + ': ' + text;
+  alert( message );
 }
 
 let from = "Anita";

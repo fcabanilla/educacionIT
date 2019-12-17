@@ -1,14 +1,12 @@
-<<<<<<< HEAD
 function checkAge(
     age) {
     if (age >= 18 ) {
-=======
+
 // 'use strict'
 
 function checkAge(age) {
     'use strict';
     if (age > 18) {
->>>>>>> cd1396a0368982df0edf182284a2778c37d0c4b3
         return true;
     } else {
         if (age == null) {

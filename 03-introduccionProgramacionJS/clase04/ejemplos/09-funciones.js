@@ -1,4 +1,4 @@
-function showMessage(from, text = "Sin texto") {
+function showMessage(from = "Nadie", text = "Sin texto") {
   alert( from + ": " + text );
 }
 

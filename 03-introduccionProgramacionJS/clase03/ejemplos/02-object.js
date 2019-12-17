@@ -4,11 +4,11 @@ function showMessage(from, text) {
 
   alert( from + ': ' + text );
 }
-// let user = {     // an object
-//   name: "Juan",  // con la clave "name" guardamos el valor "Juan"
-//   age: 30,       // con la clave "age" guardamos el valor 30
-//   funcion: showMessage
-// };
+let user = {     // an object
+  name: "Juan",  // con la clave "name" guardamos el valor "Juan"
+  age: 30,       // con la clave "age" guardamos el valor 30
+  funcion: showMessage
+};
 let user = {};  // "object literal" syntaxis
 
 
